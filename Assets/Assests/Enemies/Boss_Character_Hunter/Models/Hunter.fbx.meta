@@ -1,0 +1,2003 @@
+fileFormatVersion: 2
+guid: 8cf94abb56f7c474f8f3c74cf32e7108
+timeCreated: 1477774615
+licenseType: Store
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: chest
+    100002: Eye.L
+    100004: Eye.R
+    100006: foot.L
+    100008: foot.R
+    100010: forearm.L
+    100012: forearm.R
+    100014: hand.L
+    100016: hand.R
+    100018: head
+    100020: hips
+    100022: //RootNode
+    100024: Mesh
+    100026: Mouth
+    100028: MouthCtrl
+    100030: Root
+    100032: Sceleton
+    100034: shin.L
+    100036: shin.R
+    100038: shinMain.L
+    100040: shinMain.R
+    100042: shoulder.L
+    100044: shoulder.R
+    100046: spine
+    100048: thigh.L
+    100050: thigh.R
+    100052: toe.L
+    100054: toe.R
+    100056: upper_arm.L
+    100058: upper_arm.R
+    400000: chest
+    400002: Eye.L
+    400004: Eye.R
+    400006: foot.L
+    400008: foot.R
+    400010: forearm.L
+    400012: forearm.R
+    400014: hand.L
+    400016: hand.R
+    400018: head
+    400020: hips
+    400022: //RootNode
+    400024: Mesh
+    400026: Mouth
+    400028: MouthCtrl
+    400030: Root
+    400032: Sceleton
+    400034: shin.L
+    400036: shin.R
+    400038: shinMain.L
+    400040: shinMain.R
+    400042: shoulder.L
+    400044: shoulder.R
+    400046: spine
+    400048: thigh.L
+    400050: thigh.R
+    400052: toe.L
+    400054: toe.R
+    400056: upper_arm.L
+    400058: upper_arm.R
+    4300000: Mesh
+    7400000: Sceleton|Death
+    7400002: Sceleton|Idle
+    7400004: Sceleton|Jump_Attack
+    7400006: Sceleton|OLD_ACTIONS
+    7400008: Sceleton|Prepair_Run
+    7400010: Sceleton|Prepair_SP_Attack
+    7400012: Sceleton|Reborn
+    7400014: Sceleton|Roll_Attack
+    7400016: Sceleton|Run_Cycle
+    7400018: Sceleton|SP_Call_Support
+    7400020: Sceleton|SP_Scream
+    7400022: Sceleton|Stand_Attack
+    7400024: Sceleton|Stopped
+    7400026: Sceleton|Turn_Left_45
+    7400028: Sceleton|Turn_Right_45
+    7400030: Sceleton|Walk_Attack1
+    7400032: Sceleton|Walk_Attack2
+    7400034: Sceleton|Walk_Cycle
+    7400036: Sceleton|Stand_Up
+    7400038: Sceleton|Sleep
+    7400040: Sceleton|Get_Damage
+    9500000: //RootNode
+    13700000: Mesh
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleRotations: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Sceleton|Death
+      takeName: Sceleton|Death
+      firstFrame: 1
+      lastFrame: 56
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Mesh
+        weight: 1
+      - path: Sceleton
+        weight: 1
+      - path: Sceleton/Root
+        weight: 1
+      - path: Sceleton/Root/hips
+        weight: 1
+      - path: Sceleton/Root/hips/spine
+        weight: 1
+      - path: Sceleton/Root/hips/spine/chest
+        weight: 1
+      - path: Sceleton/Root/hips/spine/chest/head
+        weight: 1
+      - path: Sceleton/Root/hips/spine/chest/head/Eye.L
+        weight: 1
+      - path: Sceleton/Root/hips/spine/chest/head/Eye.R
+        weight: 1
+      - path: Sceleton/Root/hips/spine/chest/head/Mouth
+        weight: 1
+      - path: Sceleton/Root/hips/spine/chest/head/MouthCtrl
+        weight: 1
+      - path: Sceleton/Root/hips/spine/chest/shoulder.L
+        weight: 1
+      - path: Sceleton/Root/hips/spine/chest/shoulder.L/upper_arm.L
+        weight: 1
+      - path: Sceleton/Root/hips/spine/chest/shoulder.L/upper_arm.L/forearm.L
+        weight: 1
+      - path: Sceleton/Root/hips/spine/chest/shoulder.L/upper_arm.L/forearm.L/hand.L
+        weight: 1
+      - path: Sceleton/Root/hips/spine/chest/shoulder.R
+        weight: 1
+      - path: Sceleton/Root/hips/spine/chest/shoulder.R/upper_arm.R
+        weight: 1
+      - path: Sceleton/Root/hips/spine/chest/shoulder.R/upper_arm.R/forearm.R
+        weight: 1
+      - path: Sceleton/Root/hips/spine/chest/shoulder.R/upper_arm.R/forearm.R/hand.R
+        weight: 1
+      - path: Sceleton/Root/hips/thigh.L
+        weight: 1
+      - path: Sceleton/Root/hips/thigh.L/shin.L
+        weight: 1
+      - path: Sceleton/Root/hips/thigh.L/shin.L/foot.L
+        weight: 1
+      - path: Sceleton/Root/hips/thigh.L/shin.L/foot.L/toe.L
+        weight: 1
+      - path: Sceleton/Root/hips/thigh.R
+        weight: 1
+      - path: Sceleton/Root/hips/thigh.R/shin.R
+        weight: 1
+      - path: Sceleton/Root/hips/thigh.R/shin.R/foot.R
+        weight: 1
+      - path: Sceleton/Root/hips/thigh.R/shin.R/foot.R/toe.R
+        weight: 1
+      - path: Sceleton/Root/shinMain.L
+        weight: 1
+      - path: Sceleton/Root/shinMain.R
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Sceleton|Idle
+      takeName: Sceleton|Idle
+      firstFrame: 1
+      lastFrame: 40
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 1
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 0
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Mesh
+        weight: 1
+      - path: Sceleton
+        weight: 1
+      - path: Sceleton/Root
+        weight: 1
+      - path: Sceleton/Root/hips
+        weight: 1
+      - path: Sceleton/Root/hips/spine
+        weight: 1
+      - path: Sceleton/Root/hips/spine/chest
+        weight: 1
+      - path: Sceleton/Root/hips/spine/chest/head
+        weight: 1
+      - path: Sceleton/Root/hips/spine/chest/head/Eye.L
+        weight: 1
+      - path: Sceleton/Root/hips/spine/chest/head/Eye.R
+        weight: 1
+      - path: Sceleton/Root/hips/spine/chest/head/Mouth
+        weight: 1
+      - path: Sceleton/Root/hips/spine/chest/head/MouthCtrl
+        weight: 1
+      - path: Sceleton/Root/hips/spine/chest/shoulder.L
+        weight: 1
+      - path: Sceleton/Root/hips/spine/chest/shoulder.L/upper_arm.L
+        weight: 1
+      - path: Sceleton/Root/hips/spine/chest/shoulder.L/upper_arm.L/forearm.L
+        weight: 1
+      - path: Sceleton/Root/hips/spine/chest/shoulder.L/upper_arm.L/forearm.L/hand.L
+        weight: 1
+      - path: Sceleton/Root/hips/spine/chest/shoulder.R
+        weight: 1
+      - path: Sceleton/Root/hips/spine/chest/shoulder.R/upper_arm.R
+        weight: 1
+      - path: Sceleton/Root/hips/spine/chest/shoulder.R/upper_arm.R/forearm.R
+        weight: 1
+      - path: Sceleton/Root/hips/spine/chest/shoulder.R/upper_arm.R/forearm.R/hand.R
+        weight: 1
+      - path: Sceleton/Root/hips/thigh.L
+        weight: 1
+      - path: Sceleton/Root/hips/thigh.L/shin.L
+        weight: 1
+      - path: Sceleton/Root/hips/thigh.L/shin.L/foot.L
+        weight: 1
+      - path: Sceleton/Root/hips/thigh.L/shin.L/foot.L/toe.L
+        weight: 1
+      - path: Sceleton/Root/hips/thigh.R
+        weight: 1
+      - path: Sceleton/Root/hips/thigh.R/shin.R
+        weight: 1
+      - path: Sceleton/Root/hips/thigh.R/shin.R/foot.R
+        weight: 1
+      - path: Sceleton/Root/hips/thigh.R/shin.R/foot.R/toe.R
+        weight: 1
+      - path: Sceleton/Root/shinMain.L
+        weight: 1
+      - path: Sceleton/Root/shinMain.R
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Sceleton|Jump_Attack
+      takeName: Sceleton|Jump_Attack
+      firstFrame: 1
+      lastFrame: 74
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 0
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Mesh
+        weight: 1
+      - path: Sceleton
+        weight: 1
+      - path: Sceleton/Root
+        weight: 1
+      - path: Sceleton/Root/hips
+        weight: 1
+      - path: Sceleton/Root/hips/spine
+        weight: 1
+      - path: Sceleton/Root/hips/spine/chest
+        weight: 1
+      - path: Sceleton/Root/hips/spine/chest/head
+        weight: 1
+      - path: Sceleton/Root/hips/spine/chest/head/Eye.L
+        weight: 1
+      - path: Sceleton/Root/hips/spine/chest/head/Eye.R
+        weight: 1
+      - path: Sceleton/Root/hips/spine/chest/head/Mouth
+        weight: 1
+      - path: Sceleton/Root/hips/spine/chest/head/MouthCtrl
+        weight: 1
+      - path: Sceleton/Root/hips/spine/chest/shoulder.L
+        weight: 1
+      - path: Sceleton/Root/hips/spine/chest/shoulder.L/upper_arm.L
+        weight: 1
+      - path: Sceleton/Root/hips/spine/chest/shoulder.L/upper_arm.L/forearm.L
+        weight: 1
+      - path: Sceleton/Root/hips/spine/chest/shoulder.L/upper_arm.L/forearm.L/hand.L
+        weight: 1
+      - path: Sceleton/Root/hips/spine/chest/shoulder.R
+        weight: 1
+      - path: Sceleton/Root/hips/spine/chest/shoulder.R/upper_arm.R
+        weight: 1
+      - path: Sceleton/Root/hips/spine/chest/shoulder.R/upper_arm.R/forearm.R
+        weight: 1
+      - path: Sceleton/Root/hips/spine/chest/shoulder.R/upper_arm.R/forearm.R/hand.R
+        weight: 1
+      - path: Sceleton/Root/hips/thigh.L
+        weight: 1
+      - path: Sceleton/Root/hips/thigh.L/shin.L
+        weight: 1
+      - path: Sceleton/Root/hips/thigh.L/shin.L/foot.L
+        weight: 1
+      - path: Sceleton/Root/hips/thigh.L/shin.L/foot.L/toe.L
+        weight: 1
+      - path: Sceleton/Root/hips/thigh.R
+        weight: 1
+      - path: Sceleton/Root/hips/thigh.R/shin.R
+        weight: 1
+      - path: Sceleton/Root/hips/thigh.R/shin.R/foot.R
+        weight: 1
+      - path: Sceleton/Root/hips/thigh.R/shin.R/foot.R/toe.R
+        weight: 1
+      - path: Sceleton/Root/shinMain.L
+        weight: 1
+      - path: Sceleton/Root/shinMain.R
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Sceleton|OLD_ACTIONS
+      takeName: Sceleton|OLD_ACTIONS
+      firstFrame: 0
+      lastFrame: 934
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Mesh
+        weight: 1
+      - path: Sceleton
+        weight: 1
+      - path: Sceleton/Root
+        weight: 1
+      - path: Sceleton/Root/hips
+        weight: 1
+      - path: Sceleton/Root/hips/spine
+        weight: 1
+      - path: Sceleton/Root/hips/spine/chest
+        weight: 1
+      - path: Sceleton/Root/hips/spine/chest/head
+        weight: 1
+      - path: Sceleton/Root/hips/spine/chest/head/Eye.L
+        weight: 1
+      - path: Sceleton/Root/hips/spine/chest/head/Eye.R
+        weight: 1
+      - path: Sceleton/Root/hips/spine/chest/head/Mouth
+        weight: 1
+      - path: Sceleton/Root/hips/spine/chest/head/MouthCtrl
+        weight: 1
+      - path: Sceleton/Root/hips/spine/chest/shoulder.L
+        weight: 1
+      - path: Sceleton/Root/hips/spine/chest/shoulder.L/upper_arm.L
+        weight: 1
+      - path: Sceleton/Root/hips/spine/chest/shoulder.L/upper_arm.L/forearm.L
+        weight: 1
+      - path: Sceleton/Root/hips/spine/chest/shoulder.L/upper_arm.L/forearm.L/hand.L
+        weight: 1
+      - path: Sceleton/Root/hips/spine/chest/shoulder.R
+        weight: 1
+      - path: Sceleton/Root/hips/spine/chest/shoulder.R/upper_arm.R
+        weight: 1
+      - path: Sceleton/Root/hips/spine/chest/shoulder.R/upper_arm.R/forearm.R
+        weight: 1
+      - path: Sceleton/Root/hips/spine/chest/shoulder.R/upper_arm.R/forearm.R/hand.R
+        weight: 1
+      - path: Sceleton/Root/hips/thigh.L
+        weight: 1
+      - path: Sceleton/Root/hips/thigh.L/shin.L
+        weight: 1
+      - path: Sceleton/Root/hips/thigh.L/shin.L/foot.L
+        weight: 1
+      - path: Sceleton/Root/hips/thigh.L/shin.L/foot.L/toe.L
+        weight: 1
+      - path: Sceleton/Root/hips/thigh.R
+        weight: 1
+      - path: Sceleton/Root/hips/thigh.R/shin.R
+        weight: 1
+      - path: Sceleton/Root/hips/thigh.R/shin.R/foot.R
+        weight: 1
+      - path: Sceleton/Root/hips/thigh.R/shin.R/foot.R/toe.R
+        weight: 1
+      - path: Sceleton/Root/shinMain.L
+        weight: 1
+      - path: Sceleton/Root/shinMain.R
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Sceleton|Prepair_Run
+      takeName: Sceleton|Prepair_Run
+      firstFrame: 1
+      lastFrame: 19
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Mesh
+        weight: 1
+      - path: Sceleton
+        weight: 1
+      - path: Sceleton/Root
+        weight: 1
+      - path: Sceleton/Root/hips
+        weight: 1
+      - path: Sceleton/Root/hips/spine
+        weight: 1
+      - path: Sceleton/Root/hips/spine/chest
+        weight: 1
+      - path: Sceleton/Root/hips/spine/chest/head
+        weight: 1
+      - path: Sceleton/Root/hips/spine/chest/head/Eye.L
+        weight: 1
+      - path: Sceleton/Root/hips/spine/chest/head/Eye.R
+        weight: 1
+      - path: Sceleton/Root/hips/spine/chest/head/Mouth
+        weight: 1
+      - path: Sceleton/Root/hips/spine/chest/head/MouthCtrl
+        weight: 1
+      - path: Sceleton/Root/hips/spine/chest/shoulder.L
+        weight: 1
+      - path: Sceleton/Root/hips/spine/chest/shoulder.L/upper_arm.L
+        weight: 1
+      - path: Sceleton/Root/hips/spine/chest/shoulder.L/upper_arm.L/forearm.L
+        weight: 1
+      - path: Sceleton/Root/hips/spine/chest/shoulder.L/upper_arm.L/forearm.L/hand.L
+        weight: 1
+      - path: Sceleton/Root/hips/spine/chest/shoulder.R
+        weight: 1
+      - path: Sceleton/Root/hips/spine/chest/shoulder.R/upper_arm.R
+        weight: 1
+      - path: Sceleton/Root/hips/spine/chest/shoulder.R/upper_arm.R/forearm.R
+        weight: 1
+      - path: Sceleton/Root/hips/spine/chest/shoulder.R/upper_arm.R/forearm.R/hand.R
+        weight: 1
+      - path: Sceleton/Root/hips/thigh.L
+        weight: 1
+      - path: Sceleton/Root/hips/thigh.L/shin.L
+        weight: 1
+      - path: Sceleton/Root/hips/thigh.L/shin.L/foot.L
+        weight: 1
+      - path: Sceleton/Root/hips/thigh.L/shin.L/foot.L/toe.L
+        weight: 1
+      - path: Sceleton/Root/hips/thigh.R
+        weight: 1
+      - path: Sceleton/Root/hips/thigh.R/shin.R
+        weight: 1
+      - path: Sceleton/Root/hips/thigh.R/shin.R/foot.R
+        weight: 1
+      - path: Sceleton/Root/hips/thigh.R/shin.R/foot.R/toe.R
+        weight: 1
+      - path: Sceleton/Root/shinMain.L
+        weight: 1
+      - path: Sceleton/Root/shinMain.R
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Sceleton|Prepair_SP_Attack
+      takeName: Sceleton|Prepair_SP_Attack
+      firstFrame: 1
+      lastFrame: 27
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 0
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Mesh
+        weight: 1
+      - path: Sceleton
+        weight: 1
+      - path: Sceleton/Root
+        weight: 1
+      - path: Sceleton/Root/hips
+        weight: 1
+      - path: Sceleton/Root/hips/spine
+        weight: 1
+      - path: Sceleton/Root/hips/spine/chest
+        weight: 1
+      - path: Sceleton/Root/hips/spine/chest/head
+        weight: 1
+      - path: Sceleton/Root/hips/spine/chest/head/Eye.L
+        weight: 1
+      - path: Sceleton/Root/hips/spine/chest/head/Eye.R
+        weight: 1
+      - path: Sceleton/Root/hips/spine/chest/head/Mouth
+        weight: 1
+      - path: Sceleton/Root/hips/spine/chest/head/MouthCtrl
+        weight: 1
+      - path: Sceleton/Root/hips/spine/chest/shoulder.L
+        weight: 1
+      - path: Sceleton/Root/hips/spine/chest/shoulder.L/upper_arm.L
+        weight: 1
+      - path: Sceleton/Root/hips/spine/chest/shoulder.L/upper_arm.L/forearm.L
+        weight: 1
+      - path: Sceleton/Root/hips/spine/chest/shoulder.L/upper_arm.L/forearm.L/hand.L
+        weight: 1
+      - path: Sceleton/Root/hips/spine/chest/shoulder.R
+        weight: 1
+      - path: Sceleton/Root/hips/spine/chest/shoulder.R/upper_arm.R
+        weight: 1
+      - path: Sceleton/Root/hips/spine/chest/shoulder.R/upper_arm.R/forearm.R
+        weight: 1
+      - path: Sceleton/Root/hips/spine/chest/shoulder.R/upper_arm.R/forearm.R/hand.R
+        weight: 1
+      - path: Sceleton/Root/hips/thigh.L
+        weight: 1
+      - path: Sceleton/Root/hips/thigh.L/shin.L
+        weight: 1
+      - path: Sceleton/Root/hips/thigh.L/shin.L/foot.L
+        weight: 1
+      - path: Sceleton/Root/hips/thigh.L/shin.L/foot.L/toe.L
+        weight: 1
+      - path: Sceleton/Root/hips/thigh.R
+        weight: 1
+      - path: Sceleton/Root/hips/thigh.R/shin.R
+        weight: 1
+      - path: Sceleton/Root/hips/thigh.R/shin.R/foot.R
+        weight: 1
+      - path: Sceleton/Root/hips/thigh.R/shin.R/foot.R/toe.R
+        weight: 1
+      - path: Sceleton/Root/shinMain.L
+        weight: 1
+      - path: Sceleton/Root/shinMain.R
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Sceleton|Reborn
+      takeName: Sceleton|Reborn
+      firstFrame: 1
+      lastFrame: 60
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Mesh
+        weight: 1
+      - path: Sceleton
+        weight: 1
+      - path: Sceleton/Root
+        weight: 1
+      - path: Sceleton/Root/hips
+        weight: 1
+      - path: Sceleton/Root/hips/spine
+        weight: 1
+      - path: Sceleton/Root/hips/spine/chest
+        weight: 1
+      - path: Sceleton/Root/hips/spine/chest/head
+        weight: 1
+      - path: Sceleton/Root/hips/spine/chest/head/Eye.L
+        weight: 1
+      - path: Sceleton/Root/hips/spine/chest/head/Eye.R
+        weight: 1
+      - path: Sceleton/Root/hips/spine/chest/head/Mouth
+        weight: 1
+      - path: Sceleton/Root/hips/spine/chest/head/MouthCtrl
+        weight: 1
+      - path: Sceleton/Root/hips/spine/chest/shoulder.L
+        weight: 1
+      - path: Sceleton/Root/hips/spine/chest/shoulder.L/upper_arm.L
+        weight: 1
+      - path: Sceleton/Root/hips/spine/chest/shoulder.L/upper_arm.L/forearm.L
+        weight: 1
+      - path: Sceleton/Root/hips/spine/chest/shoulder.L/upper_arm.L/forearm.L/hand.L
+        weight: 1
+      - path: Sceleton/Root/hips/spine/chest/shoulder.R
+        weight: 1
+      - path: Sceleton/Root/hips/spine/chest/shoulder.R/upper_arm.R
+        weight: 1
+      - path: Sceleton/Root/hips/spine/chest/shoulder.R/upper_arm.R/forearm.R
+        weight: 1
+      - path: Sceleton/Root/hips/spine/chest/shoulder.R/upper_arm.R/forearm.R/hand.R
+        weight: 1
+      - path: Sceleton/Root/hips/thigh.L
+        weight: 1
+      - path: Sceleton/Root/hips/thigh.L/shin.L
+        weight: 1
+      - path: Sceleton/Root/hips/thigh.L/shin.L/foot.L
+        weight: 1
+      - path: Sceleton/Root/hips/thigh.L/shin.L/foot.L/toe.L
+        weight: 1
+      - path: Sceleton/Root/hips/thigh.R
+        weight: 1
+      - path: Sceleton/Root/hips/thigh.R/shin.R
+        weight: 1
+      - path: Sceleton/Root/hips/thigh.R/shin.R/foot.R
+        weight: 1
+      - path: Sceleton/Root/hips/thigh.R/shin.R/foot.R/toe.R
+        weight: 1
+      - path: Sceleton/Root/shinMain.L
+        weight: 1
+      - path: Sceleton/Root/shinMain.R
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Sceleton|Roll_Attack
+      takeName: Sceleton|Roll_Attack
+      firstFrame: 1
+      lastFrame: 52
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 0
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Mesh
+        weight: 1
+      - path: Sceleton
+        weight: 1
+      - path: Sceleton/Root
+        weight: 1
+      - path: Sceleton/Root/hips
+        weight: 1
+      - path: Sceleton/Root/hips/spine
+        weight: 1
+      - path: Sceleton/Root/hips/spine/chest
+        weight: 1
+      - path: Sceleton/Root/hips/spine/chest/head
+        weight: 1
+      - path: Sceleton/Root/hips/spine/chest/head/Eye.L
+        weight: 1
+      - path: Sceleton/Root/hips/spine/chest/head/Eye.R
+        weight: 1
+      - path: Sceleton/Root/hips/spine/chest/head/Mouth
+        weight: 1
+      - path: Sceleton/Root/hips/spine/chest/head/MouthCtrl
+        weight: 1
+      - path: Sceleton/Root/hips/spine/chest/shoulder.L
+        weight: 1
+      - path: Sceleton/Root/hips/spine/chest/shoulder.L/upper_arm.L
+        weight: 1
+      - path: Sceleton/Root/hips/spine/chest/shoulder.L/upper_arm.L/forearm.L
+        weight: 1
+      - path: Sceleton/Root/hips/spine/chest/shoulder.L/upper_arm.L/forearm.L/hand.L
+        weight: 1
+      - path: Sceleton/Root/hips/spine/chest/shoulder.R
+        weight: 1
+      - path: Sceleton/Root/hips/spine/chest/shoulder.R/upper_arm.R
+        weight: 1
+      - path: Sceleton/Root/hips/spine/chest/shoulder.R/upper_arm.R/forearm.R
+        weight: 1
+      - path: Sceleton/Root/hips/spine/chest/shoulder.R/upper_arm.R/forearm.R/hand.R
+        weight: 1
+      - path: Sceleton/Root/hips/thigh.L
+        weight: 1
+      - path: Sceleton/Root/hips/thigh.L/shin.L
+        weight: 1
+      - path: Sceleton/Root/hips/thigh.L/shin.L/foot.L
+        weight: 1
+      - path: Sceleton/Root/hips/thigh.L/shin.L/foot.L/toe.L
+        weight: 1
+      - path: Sceleton/Root/hips/thigh.R
+        weight: 1
+      - path: Sceleton/Root/hips/thigh.R/shin.R
+        weight: 1
+      - path: Sceleton/Root/hips/thigh.R/shin.R/foot.R
+        weight: 1
+      - path: Sceleton/Root/hips/thigh.R/shin.R/foot.R/toe.R
+        weight: 1
+      - path: Sceleton/Root/shinMain.L
+        weight: 1
+      - path: Sceleton/Root/shinMain.R
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Sceleton|Run_Cycle
+      takeName: Sceleton|Run_Cycle
+      firstFrame: 1
+      lastFrame: 25
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 1
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 0
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Mesh
+        weight: 1
+      - path: Sceleton
+        weight: 1
+      - path: Sceleton/Root
+        weight: 1
+      - path: Sceleton/Root/hips
+        weight: 1
+      - path: Sceleton/Root/hips/spine
+        weight: 1
+      - path: Sceleton/Root/hips/spine/chest
+        weight: 1
+      - path: Sceleton/Root/hips/spine/chest/head
+        weight: 1
+      - path: Sceleton/Root/hips/spine/chest/head/Eye.L
+        weight: 1
+      - path: Sceleton/Root/hips/spine/chest/head/Eye.R
+        weight: 1
+      - path: Sceleton/Root/hips/spine/chest/head/Mouth
+        weight: 1
+      - path: Sceleton/Root/hips/spine/chest/head/MouthCtrl
+        weight: 1
+      - path: Sceleton/Root/hips/spine/chest/shoulder.L
+        weight: 1
+      - path: Sceleton/Root/hips/spine/chest/shoulder.L/upper_arm.L
+        weight: 1
+      - path: Sceleton/Root/hips/spine/chest/shoulder.L/upper_arm.L/forearm.L
+        weight: 1
+      - path: Sceleton/Root/hips/spine/chest/shoulder.L/upper_arm.L/forearm.L/hand.L
+        weight: 1
+      - path: Sceleton/Root/hips/spine/chest/shoulder.R
+        weight: 1
+      - path: Sceleton/Root/hips/spine/chest/shoulder.R/upper_arm.R
+        weight: 1
+      - path: Sceleton/Root/hips/spine/chest/shoulder.R/upper_arm.R/forearm.R
+        weight: 1
+      - path: Sceleton/Root/hips/spine/chest/shoulder.R/upper_arm.R/forearm.R/hand.R
+        weight: 1
+      - path: Sceleton/Root/hips/thigh.L
+        weight: 1
+      - path: Sceleton/Root/hips/thigh.L/shin.L
+        weight: 1
+      - path: Sceleton/Root/hips/thigh.L/shin.L/foot.L
+        weight: 1
+      - path: Sceleton/Root/hips/thigh.L/shin.L/foot.L/toe.L
+        weight: 1
+      - path: Sceleton/Root/hips/thigh.R
+        weight: 1
+      - path: Sceleton/Root/hips/thigh.R/shin.R
+        weight: 1
+      - path: Sceleton/Root/hips/thigh.R/shin.R/foot.R
+        weight: 1
+      - path: Sceleton/Root/hips/thigh.R/shin.R/foot.R/toe.R
+        weight: 1
+      - path: Sceleton/Root/shinMain.L
+        weight: 1
+      - path: Sceleton/Root/shinMain.R
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Sceleton|SP_Call_Support
+      takeName: Sceleton|SP_Call_Support
+      firstFrame: 1
+      lastFrame: 73
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Mesh
+        weight: 1
+      - path: Sceleton
+        weight: 1
+      - path: Sceleton/Root
+        weight: 1
+      - path: Sceleton/Root/hips
+        weight: 1
+      - path: Sceleton/Root/hips/spine
+        weight: 1
+      - path: Sceleton/Root/hips/spine/chest
+        weight: 1
+      - path: Sceleton/Root/hips/spine/chest/head
+        weight: 1
+      - path: Sceleton/Root/hips/spine/chest/head/Eye.L
+        weight: 1
+      - path: Sceleton/Root/hips/spine/chest/head/Eye.R
+        weight: 1
+      - path: Sceleton/Root/hips/spine/chest/head/Mouth
+        weight: 1
+      - path: Sceleton/Root/hips/spine/chest/head/MouthCtrl
+        weight: 1
+      - path: Sceleton/Root/hips/spine/chest/shoulder.L
+        weight: 1
+      - path: Sceleton/Root/hips/spine/chest/shoulder.L/upper_arm.L
+        weight: 1
+      - path: Sceleton/Root/hips/spine/chest/shoulder.L/upper_arm.L/forearm.L
+        weight: 1
+      - path: Sceleton/Root/hips/spine/chest/shoulder.L/upper_arm.L/forearm.L/hand.L
+        weight: 1
+      - path: Sceleton/Root/hips/spine/chest/shoulder.R
+        weight: 1
+      - path: Sceleton/Root/hips/spine/chest/shoulder.R/upper_arm.R
+        weight: 1
+      - path: Sceleton/Root/hips/spine/chest/shoulder.R/upper_arm.R/forearm.R
+        weight: 1
+      - path: Sceleton/Root/hips/spine/chest/shoulder.R/upper_arm.R/forearm.R/hand.R
+        weight: 1
+      - path: Sceleton/Root/hips/thigh.L
+        weight: 1
+      - path: Sceleton/Root/hips/thigh.L/shin.L
+        weight: 1
+      - path: Sceleton/Root/hips/thigh.L/shin.L/foot.L
+        weight: 1
+      - path: Sceleton/Root/hips/thigh.L/shin.L/foot.L/toe.L
+        weight: 1
+      - path: Sceleton/Root/hips/thigh.R
+        weight: 1
+      - path: Sceleton/Root/hips/thigh.R/shin.R
+        weight: 1
+      - path: Sceleton/Root/hips/thigh.R/shin.R/foot.R
+        weight: 1
+      - path: Sceleton/Root/hips/thigh.R/shin.R/foot.R/toe.R
+        weight: 1
+      - path: Sceleton/Root/shinMain.L
+        weight: 1
+      - path: Sceleton/Root/shinMain.R
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Sceleton|SP_Scream
+      takeName: Sceleton|SP_Scream
+      firstFrame: 1
+      lastFrame: 73
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Mesh
+        weight: 1
+      - path: Sceleton
+        weight: 1
+      - path: Sceleton/Root
+        weight: 1
+      - path: Sceleton/Root/hips
+        weight: 1
+      - path: Sceleton/Root/hips/spine
+        weight: 1
+      - path: Sceleton/Root/hips/spine/chest
+        weight: 1
+      - path: Sceleton/Root/hips/spine/chest/head
+        weight: 1
+      - path: Sceleton/Root/hips/spine/chest/head/Eye.L
+        weight: 1
+      - path: Sceleton/Root/hips/spine/chest/head/Eye.R
+        weight: 1
+      - path: Sceleton/Root/hips/spine/chest/head/Mouth
+        weight: 1
+      - path: Sceleton/Root/hips/spine/chest/head/MouthCtrl
+        weight: 1
+      - path: Sceleton/Root/hips/spine/chest/shoulder.L
+        weight: 1
+      - path: Sceleton/Root/hips/spine/chest/shoulder.L/upper_arm.L
+        weight: 1
+      - path: Sceleton/Root/hips/spine/chest/shoulder.L/upper_arm.L/forearm.L
+        weight: 1
+      - path: Sceleton/Root/hips/spine/chest/shoulder.L/upper_arm.L/forearm.L/hand.L
+        weight: 1
+      - path: Sceleton/Root/hips/spine/chest/shoulder.R
+        weight: 1
+      - path: Sceleton/Root/hips/spine/chest/shoulder.R/upper_arm.R
+        weight: 1
+      - path: Sceleton/Root/hips/spine/chest/shoulder.R/upper_arm.R/forearm.R
+        weight: 1
+      - path: Sceleton/Root/hips/spine/chest/shoulder.R/upper_arm.R/forearm.R/hand.R
+        weight: 1
+      - path: Sceleton/Root/hips/thigh.L
+        weight: 1
+      - path: Sceleton/Root/hips/thigh.L/shin.L
+        weight: 1
+      - path: Sceleton/Root/hips/thigh.L/shin.L/foot.L
+        weight: 1
+      - path: Sceleton/Root/hips/thigh.L/shin.L/foot.L/toe.L
+        weight: 1
+      - path: Sceleton/Root/hips/thigh.R
+        weight: 1
+      - path: Sceleton/Root/hips/thigh.R/shin.R
+        weight: 1
+      - path: Sceleton/Root/hips/thigh.R/shin.R/foot.R
+        weight: 1
+      - path: Sceleton/Root/hips/thigh.R/shin.R/foot.R/toe.R
+        weight: 1
+      - path: Sceleton/Root/shinMain.L
+        weight: 1
+      - path: Sceleton/Root/shinMain.R
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Sceleton|Stand_Attack
+      takeName: Sceleton|Stand_Attack
+      firstFrame: 1
+      lastFrame: 32
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 1
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 0
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Mesh
+        weight: 1
+      - path: Sceleton
+        weight: 1
+      - path: Sceleton/Root
+        weight: 1
+      - path: Sceleton/Root/hips
+        weight: 1
+      - path: Sceleton/Root/hips/spine
+        weight: 1
+      - path: Sceleton/Root/hips/spine/chest
+        weight: 1
+      - path: Sceleton/Root/hips/spine/chest/head
+        weight: 1
+      - path: Sceleton/Root/hips/spine/chest/head/Eye.L
+        weight: 1
+      - path: Sceleton/Root/hips/spine/chest/head/Eye.R
+        weight: 1
+      - path: Sceleton/Root/hips/spine/chest/head/Mouth
+        weight: 1
+      - path: Sceleton/Root/hips/spine/chest/head/MouthCtrl
+        weight: 1
+      - path: Sceleton/Root/hips/spine/chest/shoulder.L
+        weight: 1
+      - path: Sceleton/Root/hips/spine/chest/shoulder.L/upper_arm.L
+        weight: 1
+      - path: Sceleton/Root/hips/spine/chest/shoulder.L/upper_arm.L/forearm.L
+        weight: 1
+      - path: Sceleton/Root/hips/spine/chest/shoulder.L/upper_arm.L/forearm.L/hand.L
+        weight: 1
+      - path: Sceleton/Root/hips/spine/chest/shoulder.R
+        weight: 1
+      - path: Sceleton/Root/hips/spine/chest/shoulder.R/upper_arm.R
+        weight: 1
+      - path: Sceleton/Root/hips/spine/chest/shoulder.R/upper_arm.R/forearm.R
+        weight: 1
+      - path: Sceleton/Root/hips/spine/chest/shoulder.R/upper_arm.R/forearm.R/hand.R
+        weight: 1
+      - path: Sceleton/Root/hips/thigh.L
+        weight: 1
+      - path: Sceleton/Root/hips/thigh.L/shin.L
+        weight: 1
+      - path: Sceleton/Root/hips/thigh.L/shin.L/foot.L
+        weight: 1
+      - path: Sceleton/Root/hips/thigh.L/shin.L/foot.L/toe.L
+        weight: 1
+      - path: Sceleton/Root/hips/thigh.R
+        weight: 1
+      - path: Sceleton/Root/hips/thigh.R/shin.R
+        weight: 1
+      - path: Sceleton/Root/hips/thigh.R/shin.R/foot.R
+        weight: 1
+      - path: Sceleton/Root/hips/thigh.R/shin.R/foot.R/toe.R
+        weight: 1
+      - path: Sceleton/Root/shinMain.L
+        weight: 1
+      - path: Sceleton/Root/shinMain.R
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Sceleton|Stopped
+      takeName: Sceleton|Stopped
+      firstFrame: 1
+      lastFrame: 26
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Mesh
+        weight: 1
+      - path: Sceleton
+        weight: 1
+      - path: Sceleton/Root
+        weight: 1
+      - path: Sceleton/Root/hips
+        weight: 1
+      - path: Sceleton/Root/hips/spine
+        weight: 1
+      - path: Sceleton/Root/hips/spine/chest
+        weight: 1
+      - path: Sceleton/Root/hips/spine/chest/head
+        weight: 1
+      - path: Sceleton/Root/hips/spine/chest/head/Eye.L
+        weight: 1
+      - path: Sceleton/Root/hips/spine/chest/head/Eye.R
+        weight: 1
+      - path: Sceleton/Root/hips/spine/chest/head/Mouth
+        weight: 1
+      - path: Sceleton/Root/hips/spine/chest/head/MouthCtrl
+        weight: 1
+      - path: Sceleton/Root/hips/spine/chest/shoulder.L
+        weight: 1
+      - path: Sceleton/Root/hips/spine/chest/shoulder.L/upper_arm.L
+        weight: 1
+      - path: Sceleton/Root/hips/spine/chest/shoulder.L/upper_arm.L/forearm.L
+        weight: 1
+      - path: Sceleton/Root/hips/spine/chest/shoulder.L/upper_arm.L/forearm.L/hand.L
+        weight: 1
+      - path: Sceleton/Root/hips/spine/chest/shoulder.R
+        weight: 1
+      - path: Sceleton/Root/hips/spine/chest/shoulder.R/upper_arm.R
+        weight: 1
+      - path: Sceleton/Root/hips/spine/chest/shoulder.R/upper_arm.R/forearm.R
+        weight: 1
+      - path: Sceleton/Root/hips/spine/chest/shoulder.R/upper_arm.R/forearm.R/hand.R
+        weight: 1
+      - path: Sceleton/Root/hips/thigh.L
+        weight: 1
+      - path: Sceleton/Root/hips/thigh.L/shin.L
+        weight: 1
+      - path: Sceleton/Root/hips/thigh.L/shin.L/foot.L
+        weight: 1
+      - path: Sceleton/Root/hips/thigh.L/shin.L/foot.L/toe.L
+        weight: 1
+      - path: Sceleton/Root/hips/thigh.R
+        weight: 1
+      - path: Sceleton/Root/hips/thigh.R/shin.R
+        weight: 1
+      - path: Sceleton/Root/hips/thigh.R/shin.R/foot.R
+        weight: 1
+      - path: Sceleton/Root/hips/thigh.R/shin.R/foot.R/toe.R
+        weight: 1
+      - path: Sceleton/Root/shinMain.L
+        weight: 1
+      - path: Sceleton/Root/shinMain.R
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Sceleton|Turn_Left_45
+      takeName: Sceleton|Turn_Left_45
+      firstFrame: 1
+      lastFrame: 25
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 1
+      loopBlendOrientation: 0
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 0
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Mesh
+        weight: 1
+      - path: Sceleton
+        weight: 1
+      - path: Sceleton/Root
+        weight: 1
+      - path: Sceleton/Root/hips
+        weight: 1
+      - path: Sceleton/Root/hips/spine
+        weight: 1
+      - path: Sceleton/Root/hips/spine/chest
+        weight: 1
+      - path: Sceleton/Root/hips/spine/chest/head
+        weight: 1
+      - path: Sceleton/Root/hips/spine/chest/head/Eye.L
+        weight: 1
+      - path: Sceleton/Root/hips/spine/chest/head/Eye.R
+        weight: 1
+      - path: Sceleton/Root/hips/spine/chest/head/Mouth
+        weight: 1
+      - path: Sceleton/Root/hips/spine/chest/head/MouthCtrl
+        weight: 1
+      - path: Sceleton/Root/hips/spine/chest/shoulder.L
+        weight: 1
+      - path: Sceleton/Root/hips/spine/chest/shoulder.L/upper_arm.L
+        weight: 1
+      - path: Sceleton/Root/hips/spine/chest/shoulder.L/upper_arm.L/forearm.L
+        weight: 1
+      - path: Sceleton/Root/hips/spine/chest/shoulder.L/upper_arm.L/forearm.L/hand.L
+        weight: 1
+      - path: Sceleton/Root/hips/spine/chest/shoulder.R
+        weight: 1
+      - path: Sceleton/Root/hips/spine/chest/shoulder.R/upper_arm.R
+        weight: 1
+      - path: Sceleton/Root/hips/spine/chest/shoulder.R/upper_arm.R/forearm.R
+        weight: 1
+      - path: Sceleton/Root/hips/spine/chest/shoulder.R/upper_arm.R/forearm.R/hand.R
+        weight: 1
+      - path: Sceleton/Root/hips/thigh.L
+        weight: 1
+      - path: Sceleton/Root/hips/thigh.L/shin.L
+        weight: 1
+      - path: Sceleton/Root/hips/thigh.L/shin.L/foot.L
+        weight: 1
+      - path: Sceleton/Root/hips/thigh.L/shin.L/foot.L/toe.L
+        weight: 1
+      - path: Sceleton/Root/hips/thigh.R
+        weight: 1
+      - path: Sceleton/Root/hips/thigh.R/shin.R
+        weight: 1
+      - path: Sceleton/Root/hips/thigh.R/shin.R/foot.R
+        weight: 1
+      - path: Sceleton/Root/hips/thigh.R/shin.R/foot.R/toe.R
+        weight: 1
+      - path: Sceleton/Root/shinMain.L
+        weight: 1
+      - path: Sceleton/Root/shinMain.R
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Sceleton|Turn_Right_45
+      takeName: Sceleton|Turn_Right_45
+      firstFrame: 1
+      lastFrame: 25
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 1
+      loopBlendOrientation: 0
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 0
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Mesh
+        weight: 1
+      - path: Sceleton
+        weight: 1
+      - path: Sceleton/Root
+        weight: 1
+      - path: Sceleton/Root/hips
+        weight: 1
+      - path: Sceleton/Root/hips/spine
+        weight: 1
+      - path: Sceleton/Root/hips/spine/chest
+        weight: 1
+      - path: Sceleton/Root/hips/spine/chest/head
+        weight: 1
+      - path: Sceleton/Root/hips/spine/chest/head/Eye.L
+        weight: 1
+      - path: Sceleton/Root/hips/spine/chest/head/Eye.R
+        weight: 1
+      - path: Sceleton/Root/hips/spine/chest/head/Mouth
+        weight: 1
+      - path: Sceleton/Root/hips/spine/chest/head/MouthCtrl
+        weight: 1
+      - path: Sceleton/Root/hips/spine/chest/shoulder.L
+        weight: 1
+      - path: Sceleton/Root/hips/spine/chest/shoulder.L/upper_arm.L
+        weight: 1
+      - path: Sceleton/Root/hips/spine/chest/shoulder.L/upper_arm.L/forearm.L
+        weight: 1
+      - path: Sceleton/Root/hips/spine/chest/shoulder.L/upper_arm.L/forearm.L/hand.L
+        weight: 1
+      - path: Sceleton/Root/hips/spine/chest/shoulder.R
+        weight: 1
+      - path: Sceleton/Root/hips/spine/chest/shoulder.R/upper_arm.R
+        weight: 1
+      - path: Sceleton/Root/hips/spine/chest/shoulder.R/upper_arm.R/forearm.R
+        weight: 1
+      - path: Sceleton/Root/hips/spine/chest/shoulder.R/upper_arm.R/forearm.R/hand.R
+        weight: 1
+      - path: Sceleton/Root/hips/thigh.L
+        weight: 1
+      - path: Sceleton/Root/hips/thigh.L/shin.L
+        weight: 1
+      - path: Sceleton/Root/hips/thigh.L/shin.L/foot.L
+        weight: 1
+      - path: Sceleton/Root/hips/thigh.L/shin.L/foot.L/toe.L
+        weight: 1
+      - path: Sceleton/Root/hips/thigh.R
+        weight: 1
+      - path: Sceleton/Root/hips/thigh.R/shin.R
+        weight: 1
+      - path: Sceleton/Root/hips/thigh.R/shin.R/foot.R
+        weight: 1
+      - path: Sceleton/Root/hips/thigh.R/shin.R/foot.R/toe.R
+        weight: 1
+      - path: Sceleton/Root/shinMain.L
+        weight: 1
+      - path: Sceleton/Root/shinMain.R
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Sceleton|Walk_Attack1
+      takeName: Sceleton|Walk_Attack1
+      firstFrame: 1
+      lastFrame: 30
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 1
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 0
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Mesh
+        weight: 1
+      - path: Sceleton
+        weight: 1
+      - path: Sceleton/Root
+        weight: 1
+      - path: Sceleton/Root/hips
+        weight: 1
+      - path: Sceleton/Root/hips/spine
+        weight: 1
+      - path: Sceleton/Root/hips/spine/chest
+        weight: 1
+      - path: Sceleton/Root/hips/spine/chest/head
+        weight: 1
+      - path: Sceleton/Root/hips/spine/chest/head/Eye.L
+        weight: 1
+      - path: Sceleton/Root/hips/spine/chest/head/Eye.R
+        weight: 1
+      - path: Sceleton/Root/hips/spine/chest/head/Mouth
+        weight: 1
+      - path: Sceleton/Root/hips/spine/chest/head/MouthCtrl
+        weight: 1
+      - path: Sceleton/Root/hips/spine/chest/shoulder.L
+        weight: 1
+      - path: Sceleton/Root/hips/spine/chest/shoulder.L/upper_arm.L
+        weight: 1
+      - path: Sceleton/Root/hips/spine/chest/shoulder.L/upper_arm.L/forearm.L
+        weight: 1
+      - path: Sceleton/Root/hips/spine/chest/shoulder.L/upper_arm.L/forearm.L/hand.L
+        weight: 1
+      - path: Sceleton/Root/hips/spine/chest/shoulder.R
+        weight: 1
+      - path: Sceleton/Root/hips/spine/chest/shoulder.R/upper_arm.R
+        weight: 1
+      - path: Sceleton/Root/hips/spine/chest/shoulder.R/upper_arm.R/forearm.R
+        weight: 1
+      - path: Sceleton/Root/hips/spine/chest/shoulder.R/upper_arm.R/forearm.R/hand.R
+        weight: 1
+      - path: Sceleton/Root/hips/thigh.L
+        weight: 1
+      - path: Sceleton/Root/hips/thigh.L/shin.L
+        weight: 1
+      - path: Sceleton/Root/hips/thigh.L/shin.L/foot.L
+        weight: 1
+      - path: Sceleton/Root/hips/thigh.L/shin.L/foot.L/toe.L
+        weight: 1
+      - path: Sceleton/Root/hips/thigh.R
+        weight: 1
+      - path: Sceleton/Root/hips/thigh.R/shin.R
+        weight: 1
+      - path: Sceleton/Root/hips/thigh.R/shin.R/foot.R
+        weight: 1
+      - path: Sceleton/Root/hips/thigh.R/shin.R/foot.R/toe.R
+        weight: 1
+      - path: Sceleton/Root/shinMain.L
+        weight: 1
+      - path: Sceleton/Root/shinMain.R
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Sceleton|Walk_Attack2
+      takeName: Sceleton|Walk_Attack2
+      firstFrame: 1
+      lastFrame: 38
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 1
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 0
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Mesh
+        weight: 1
+      - path: Sceleton
+        weight: 1
+      - path: Sceleton/Root
+        weight: 1
+      - path: Sceleton/Root/hips
+        weight: 1
+      - path: Sceleton/Root/hips/spine
+        weight: 1
+      - path: Sceleton/Root/hips/spine/chest
+        weight: 1
+      - path: Sceleton/Root/hips/spine/chest/head
+        weight: 1
+      - path: Sceleton/Root/hips/spine/chest/head/Eye.L
+        weight: 1
+      - path: Sceleton/Root/hips/spine/chest/head/Eye.R
+        weight: 1
+      - path: Sceleton/Root/hips/spine/chest/head/Mouth
+        weight: 1
+      - path: Sceleton/Root/hips/spine/chest/head/MouthCtrl
+        weight: 1
+      - path: Sceleton/Root/hips/spine/chest/shoulder.L
+        weight: 1
+      - path: Sceleton/Root/hips/spine/chest/shoulder.L/upper_arm.L
+        weight: 1
+      - path: Sceleton/Root/hips/spine/chest/shoulder.L/upper_arm.L/forearm.L
+        weight: 1
+      - path: Sceleton/Root/hips/spine/chest/shoulder.L/upper_arm.L/forearm.L/hand.L
+        weight: 1
+      - path: Sceleton/Root/hips/spine/chest/shoulder.R
+        weight: 1
+      - path: Sceleton/Root/hips/spine/chest/shoulder.R/upper_arm.R
+        weight: 1
+      - path: Sceleton/Root/hips/spine/chest/shoulder.R/upper_arm.R/forearm.R
+        weight: 1
+      - path: Sceleton/Root/hips/spine/chest/shoulder.R/upper_arm.R/forearm.R/hand.R
+        weight: 1
+      - path: Sceleton/Root/hips/thigh.L
+        weight: 1
+      - path: Sceleton/Root/hips/thigh.L/shin.L
+        weight: 1
+      - path: Sceleton/Root/hips/thigh.L/shin.L/foot.L
+        weight: 1
+      - path: Sceleton/Root/hips/thigh.L/shin.L/foot.L/toe.L
+        weight: 1
+      - path: Sceleton/Root/hips/thigh.R
+        weight: 1
+      - path: Sceleton/Root/hips/thigh.R/shin.R
+        weight: 1
+      - path: Sceleton/Root/hips/thigh.R/shin.R/foot.R
+        weight: 1
+      - path: Sceleton/Root/hips/thigh.R/shin.R/foot.R/toe.R
+        weight: 1
+      - path: Sceleton/Root/shinMain.L
+        weight: 1
+      - path: Sceleton/Root/shinMain.R
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Sceleton|Walk_Cycle
+      takeName: Sceleton|Walk_Cycle
+      firstFrame: 1
+      lastFrame: 30
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 1
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 0
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Mesh
+        weight: 1
+      - path: Sceleton
+        weight: 1
+      - path: Sceleton/Root
+        weight: 1
+      - path: Sceleton/Root/hips
+        weight: 1
+      - path: Sceleton/Root/hips/spine
+        weight: 1
+      - path: Sceleton/Root/hips/spine/chest
+        weight: 1
+      - path: Sceleton/Root/hips/spine/chest/head
+        weight: 1
+      - path: Sceleton/Root/hips/spine/chest/head/Eye.L
+        weight: 1
+      - path: Sceleton/Root/hips/spine/chest/head/Eye.R
+        weight: 1
+      - path: Sceleton/Root/hips/spine/chest/head/Mouth
+        weight: 1
+      - path: Sceleton/Root/hips/spine/chest/head/MouthCtrl
+        weight: 1
+      - path: Sceleton/Root/hips/spine/chest/shoulder.L
+        weight: 1
+      - path: Sceleton/Root/hips/spine/chest/shoulder.L/upper_arm.L
+        weight: 1
+      - path: Sceleton/Root/hips/spine/chest/shoulder.L/upper_arm.L/forearm.L
+        weight: 1
+      - path: Sceleton/Root/hips/spine/chest/shoulder.L/upper_arm.L/forearm.L/hand.L
+        weight: 1
+      - path: Sceleton/Root/hips/spine/chest/shoulder.R
+        weight: 1
+      - path: Sceleton/Root/hips/spine/chest/shoulder.R/upper_arm.R
+        weight: 1
+      - path: Sceleton/Root/hips/spine/chest/shoulder.R/upper_arm.R/forearm.R
+        weight: 1
+      - path: Sceleton/Root/hips/spine/chest/shoulder.R/upper_arm.R/forearm.R/hand.R
+        weight: 1
+      - path: Sceleton/Root/hips/thigh.L
+        weight: 1
+      - path: Sceleton/Root/hips/thigh.L/shin.L
+        weight: 1
+      - path: Sceleton/Root/hips/thigh.L/shin.L/foot.L
+        weight: 1
+      - path: Sceleton/Root/hips/thigh.L/shin.L/foot.L/toe.L
+        weight: 1
+      - path: Sceleton/Root/hips/thigh.R
+        weight: 1
+      - path: Sceleton/Root/hips/thigh.R/shin.R
+        weight: 1
+      - path: Sceleton/Root/hips/thigh.R/shin.R/foot.R
+        weight: 1
+      - path: Sceleton/Root/hips/thigh.R/shin.R/foot.R/toe.R
+        weight: 1
+      - path: Sceleton/Root/shinMain.L
+        weight: 1
+      - path: Sceleton/Root/shinMain.R
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Sceleton|Stand_Up
+      takeName: Sceleton|Stopped
+      firstFrame: 104
+      lastFrame: 270
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Mesh
+        weight: 1
+      - path: Sceleton
+        weight: 1
+      - path: Sceleton/Root
+        weight: 1
+      - path: Sceleton/Root/hips
+        weight: 1
+      - path: Sceleton/Root/hips/spine
+        weight: 1
+      - path: Sceleton/Root/hips/spine/chest
+        weight: 1
+      - path: Sceleton/Root/hips/spine/chest/head
+        weight: 1
+      - path: Sceleton/Root/hips/spine/chest/head/Eye.L
+        weight: 1
+      - path: Sceleton/Root/hips/spine/chest/head/Eye.R
+        weight: 1
+      - path: Sceleton/Root/hips/spine/chest/head/Mouth
+        weight: 1
+      - path: Sceleton/Root/hips/spine/chest/head/MouthCtrl
+        weight: 1
+      - path: Sceleton/Root/hips/spine/chest/shoulder.L
+        weight: 1
+      - path: Sceleton/Root/hips/spine/chest/shoulder.L/upper_arm.L
+        weight: 1
+      - path: Sceleton/Root/hips/spine/chest/shoulder.L/upper_arm.L/forearm.L
+        weight: 1
+      - path: Sceleton/Root/hips/spine/chest/shoulder.L/upper_arm.L/forearm.L/hand.L
+        weight: 1
+      - path: Sceleton/Root/hips/spine/chest/shoulder.R
+        weight: 1
+      - path: Sceleton/Root/hips/spine/chest/shoulder.R/upper_arm.R
+        weight: 1
+      - path: Sceleton/Root/hips/spine/chest/shoulder.R/upper_arm.R/forearm.R
+        weight: 1
+      - path: Sceleton/Root/hips/spine/chest/shoulder.R/upper_arm.R/forearm.R/hand.R
+        weight: 1
+      - path: Sceleton/Root/hips/thigh.L
+        weight: 1
+      - path: Sceleton/Root/hips/thigh.L/shin.L
+        weight: 1
+      - path: Sceleton/Root/hips/thigh.L/shin.L/foot.L
+        weight: 1
+      - path: Sceleton/Root/hips/thigh.L/shin.L/foot.L/toe.L
+        weight: 1
+      - path: Sceleton/Root/hips/thigh.R
+        weight: 1
+      - path: Sceleton/Root/hips/thigh.R/shin.R
+        weight: 1
+      - path: Sceleton/Root/hips/thigh.R/shin.R/foot.R
+        weight: 1
+      - path: Sceleton/Root/hips/thigh.R/shin.R/foot.R/toe.R
+        weight: 1
+      - path: Sceleton/Root/shinMain.L
+        weight: 1
+      - path: Sceleton/Root/shinMain.R
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Sceleton|Sleep
+      takeName: Sceleton|Stopped
+      firstFrame: 26
+      lastFrame: 104
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 1
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 0
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Mesh
+        weight: 1
+      - path: Sceleton
+        weight: 1
+      - path: Sceleton/Root
+        weight: 1
+      - path: Sceleton/Root/hips
+        weight: 1
+      - path: Sceleton/Root/hips/spine
+        weight: 1
+      - path: Sceleton/Root/hips/spine/chest
+        weight: 1
+      - path: Sceleton/Root/hips/spine/chest/head
+        weight: 1
+      - path: Sceleton/Root/hips/spine/chest/head/Eye.L
+        weight: 1
+      - path: Sceleton/Root/hips/spine/chest/head/Eye.R
+        weight: 1
+      - path: Sceleton/Root/hips/spine/chest/head/Mouth
+        weight: 1
+      - path: Sceleton/Root/hips/spine/chest/head/MouthCtrl
+        weight: 1
+      - path: Sceleton/Root/hips/spine/chest/shoulder.L
+        weight: 1
+      - path: Sceleton/Root/hips/spine/chest/shoulder.L/upper_arm.L
+        weight: 1
+      - path: Sceleton/Root/hips/spine/chest/shoulder.L/upper_arm.L/forearm.L
+        weight: 1
+      - path: Sceleton/Root/hips/spine/chest/shoulder.L/upper_arm.L/forearm.L/hand.L
+        weight: 1
+      - path: Sceleton/Root/hips/spine/chest/shoulder.R
+        weight: 1
+      - path: Sceleton/Root/hips/spine/chest/shoulder.R/upper_arm.R
+        weight: 1
+      - path: Sceleton/Root/hips/spine/chest/shoulder.R/upper_arm.R/forearm.R
+        weight: 1
+      - path: Sceleton/Root/hips/spine/chest/shoulder.R/upper_arm.R/forearm.R/hand.R
+        weight: 1
+      - path: Sceleton/Root/hips/thigh.L
+        weight: 1
+      - path: Sceleton/Root/hips/thigh.L/shin.L
+        weight: 1
+      - path: Sceleton/Root/hips/thigh.L/shin.L/foot.L
+        weight: 1
+      - path: Sceleton/Root/hips/thigh.L/shin.L/foot.L/toe.L
+        weight: 1
+      - path: Sceleton/Root/hips/thigh.R
+        weight: 1
+      - path: Sceleton/Root/hips/thigh.R/shin.R
+        weight: 1
+      - path: Sceleton/Root/hips/thigh.R/shin.R/foot.R
+        weight: 1
+      - path: Sceleton/Root/hips/thigh.R/shin.R/foot.R/toe.R
+        weight: 1
+      - path: Sceleton/Root/shinMain.L
+        weight: 1
+      - path: Sceleton/Root/shinMain.R
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Sceleton|Get_Damage
+      takeName: Sceleton|Get_Damage
+      firstFrame: 1
+      lastFrame: 22
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 1
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 0
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Mesh
+        weight: 1
+      - path: Sceleton
+        weight: 1
+      - path: Sceleton/Root
+        weight: 1
+      - path: Sceleton/Root/hips
+        weight: 1
+      - path: Sceleton/Root/hips/spine
+        weight: 1
+      - path: Sceleton/Root/hips/spine/chest
+        weight: 1
+      - path: Sceleton/Root/hips/spine/chest/head
+        weight: 1
+      - path: Sceleton/Root/hips/spine/chest/head/Eye.L
+        weight: 1
+      - path: Sceleton/Root/hips/spine/chest/head/Eye.R
+        weight: 1
+      - path: Sceleton/Root/hips/spine/chest/head/Mouth
+        weight: 1
+      - path: Sceleton/Root/hips/spine/chest/head/MouthCtrl
+        weight: 1
+      - path: Sceleton/Root/hips/spine/chest/shoulder.L
+        weight: 1
+      - path: Sceleton/Root/hips/spine/chest/shoulder.L/upper_arm.L
+        weight: 1
+      - path: Sceleton/Root/hips/spine/chest/shoulder.L/upper_arm.L/forearm.L
+        weight: 1
+      - path: Sceleton/Root/hips/spine/chest/shoulder.L/upper_arm.L/forearm.L/hand.L
+        weight: 1
+      - path: Sceleton/Root/hips/spine/chest/shoulder.R
+        weight: 1
+      - path: Sceleton/Root/hips/spine/chest/shoulder.R/upper_arm.R
+        weight: 1
+      - path: Sceleton/Root/hips/spine/chest/shoulder.R/upper_arm.R/forearm.R
+        weight: 1
+      - path: Sceleton/Root/hips/spine/chest/shoulder.R/upper_arm.R/forearm.R/hand.R
+        weight: 1
+      - path: Sceleton/Root/hips/thigh.L
+        weight: 1
+      - path: Sceleton/Root/hips/thigh.L/shin.L
+        weight: 1
+      - path: Sceleton/Root/hips/thigh.L/shin.L/foot.L
+        weight: 1
+      - path: Sceleton/Root/hips/thigh.L/shin.L/foot.L/toe.L
+        weight: 1
+      - path: Sceleton/Root/hips/thigh.R
+        weight: 1
+      - path: Sceleton/Root/hips/thigh.R/shin.R
+        weight: 1
+      - path: Sceleton/Root/hips/thigh.R/shin.R/foot.R
+        weight: 1
+      - path: Sceleton/Root/hips/thigh.R/shin.R/foot.R/toe.R
+        weight: 1
+      - path: Sceleton/Root/shinMain.L
+        weight: 1
+      - path: Sceleton/Root/shinMain.R
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 0.2
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: Root
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

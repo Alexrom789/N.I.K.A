@@ -1,0 +1,2569 @@
+fileFormatVersion: 2
+guid: 709ec484325181245aac74f3ae589c56
+timeCreated: 1485240811
+licenseType: Store
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: em_fl_01
+    100002: em_fl_02
+    100004: em_fl_11
+    100006: em_fl_12
+    100008: em_fr_01
+    100010: em_fr_02
+    100012: em_fr_11
+    100014: em_fr_12
+    100016: em_head
+    100018: em_l_calf
+    100020: em_l_clavicle
+    100022: em_l_foot
+    100024: em_l_forearm
+    100026: em_l_hand
+    100028: em_l_thigh
+    100030: em_l_toe0
+    100032: em_l_upperarm
+    100034: //RootNode
+    100036: em_neck
+    100038: em_pelvis
+    100040: em_r_calf
+    100042: em_r_clavicle
+    100044: em_r_foot
+    100046: em_r_forearm
+    100048: em_r_hand
+    100050: em_r_thigh
+    100052: em_r_toe0
+    100054: em_r_upperarm
+    100056: em_root
+    100058: em_rotator
+    100060: em_spine
+    100062: em_spine1
+    100064: em_trigger
+    100066: em_wiresl
+    100068: em_wiresr
+    100070: mesh_electro_man
+    100072: mesh_head
+    100074: mesh_head_helmet
+    400000: em_fl_01
+    400002: em_fl_02
+    400004: em_fl_11
+    400006: em_fl_12
+    400008: em_fr_01
+    400010: em_fr_02
+    400012: em_fr_11
+    400014: em_fr_12
+    400016: em_head
+    400018: em_l_calf
+    400020: em_l_clavicle
+    400022: em_l_foot
+    400024: em_l_forearm
+    400026: em_l_hand
+    400028: em_l_thigh
+    400030: em_l_toe0
+    400032: em_l_upperarm
+    400034: //RootNode
+    400036: em_neck
+    400038: em_pelvis
+    400040: em_r_calf
+    400042: em_r_clavicle
+    400044: em_r_foot
+    400046: em_r_forearm
+    400048: em_r_hand
+    400050: em_r_thigh
+    400052: em_r_toe0
+    400054: em_r_upperarm
+    400056: em_root
+    400058: em_rotator
+    400060: em_spine
+    400062: em_spine1
+    400064: em_trigger
+    400066: em_wiresl
+    400068: em_wiresr
+    400070: mesh_electro_man
+    400072: mesh_head
+    400074: mesh_head_helmet
+    4300000: mesh_electro_man
+    4300002: mesh_head
+    4300004: mesh_head_helmet
+    7400000: charge
+    7400002: death_back
+    7400004: death_front
+    7400006: fire_in
+    7400008: fire_action
+    7400010: fire_out
+    7400012: hit
+    7400014: idle_lookaround
+    7400016: idle_short
+    7400018: turn_left_45
+    7400020: turn_left_90
+    7400022: turn_left_180A
+    7400024: turn_left_180B
+    7400026: turn_right_45
+    7400028: turn_right_90
+    7400030: turn_right_180
+    7400032: walk_forward
+    7400034: walk_left_radius_90
+    7400036: walk_left_radius_160
+    7400038: walk_left_radius_280
+    7400040: walk_right_radius_90
+    7400042: walk_right_radius_160
+    7400044: walk_right_radius_280
+    9500000: //RootNode
+    13700000: mesh_electro_man
+    13700002: mesh_head
+    13700004: mesh_head_helmet
+  materials:
+    importMaterials: 0
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: em_root
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 0
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: charge
+      takeName: charge
+      firstFrame: 0
+      lastFrame: 60
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: em_root
+        weight: 1
+      - path: em_root/em_pelvis
+        weight: 1
+      - path: em_root/em_pelvis/em_l_thigh
+        weight: 1
+      - path: em_root/em_pelvis/em_l_thigh/em_l_calf
+        weight: 1
+      - path: em_root/em_pelvis/em_l_thigh/em_l_calf/em_l_foot
+        weight: 1
+      - path: em_root/em_pelvis/em_l_thigh/em_l_calf/em_l_foot/em_l_toe0
+        weight: 1
+      - path: em_root/em_pelvis/em_r_thigh
+        weight: 1
+      - path: em_root/em_pelvis/em_r_thigh/em_r_calf
+        weight: 1
+      - path: em_root/em_pelvis/em_r_thigh/em_r_calf/em_r_foot
+        weight: 1
+      - path: em_root/em_pelvis/em_r_thigh/em_r_calf/em_r_foot/em_r_toe0
+        weight: 1
+      - path: em_root/em_pelvis/em_spine
+        weight: 1
+      - path: em_root/em_pelvis/em_spine/em_rotator
+        weight: 1
+      - path: em_root/em_pelvis/em_spine/em_spine1
+        weight: 1
+      - path: em_root/em_pelvis/em_spine/em_spine1/em_l_clavicle
+        weight: 1
+      - path: em_root/em_pelvis/em_spine/em_spine1/em_l_clavicle/em_l_upperarm
+        weight: 1
+      - path: em_root/em_pelvis/em_spine/em_spine1/em_l_clavicle/em_l_upperarm/em_l_forearm
+        weight: 1
+      - path: em_root/em_pelvis/em_spine/em_spine1/em_l_clavicle/em_l_upperarm/em_l_forearm/em_l_hand
+        weight: 1
+      - path: em_root/em_pelvis/em_spine/em_spine1/em_l_clavicle/em_l_upperarm/em_l_forearm/em_l_hand/em_fl_01
+        weight: 1
+      - path: em_root/em_pelvis/em_spine/em_spine1/em_l_clavicle/em_l_upperarm/em_l_forearm/em_l_hand/em_fl_01/em_fl_02
+        weight: 1
+      - path: em_root/em_pelvis/em_spine/em_spine1/em_l_clavicle/em_l_upperarm/em_l_forearm/em_l_hand/em_fl_11
+        weight: 1
+      - path: em_root/em_pelvis/em_spine/em_spine1/em_l_clavicle/em_l_upperarm/em_l_forearm/em_l_hand/em_fl_11/em_fl_12
+        weight: 1
+      - path: em_root/em_pelvis/em_spine/em_spine1/em_neck
+        weight: 1
+      - path: em_root/em_pelvis/em_spine/em_spine1/em_neck/em_head
+        weight: 1
+      - path: em_root/em_pelvis/em_spine/em_spine1/em_r_clavicle
+        weight: 1
+      - path: em_root/em_pelvis/em_spine/em_spine1/em_r_clavicle/em_r_upperarm
+        weight: 1
+      - path: em_root/em_pelvis/em_spine/em_spine1/em_r_clavicle/em_r_upperarm/em_r_forearm
+        weight: 1
+      - path: em_root/em_pelvis/em_spine/em_spine1/em_r_clavicle/em_r_upperarm/em_r_forearm/em_r_hand
+        weight: 1
+      - path: em_root/em_pelvis/em_spine/em_spine1/em_r_clavicle/em_r_upperarm/em_r_forearm/em_r_hand/em_fr_01
+        weight: 1
+      - path: em_root/em_pelvis/em_spine/em_spine1/em_r_clavicle/em_r_upperarm/em_r_forearm/em_r_hand/em_fr_01/em_fr_02
+        weight: 1
+      - path: em_root/em_pelvis/em_spine/em_spine1/em_r_clavicle/em_r_upperarm/em_r_forearm/em_r_hand/em_fr_11
+        weight: 1
+      - path: em_root/em_pelvis/em_spine/em_spine1/em_r_clavicle/em_r_upperarm/em_r_forearm/em_r_hand/em_fr_11/em_fr_12
+        weight: 1
+      - path: em_root/em_pelvis/em_spine/em_spine1/em_wiresl
+        weight: 1
+      - path: em_root/em_pelvis/em_spine/em_spine1/em_wiresr
+        weight: 1
+      - path: em_root/em_pelvis/em_spine/em_trigger
+        weight: 1
+      - path: mesh_electro_man
+        weight: 1
+      - path: mesh_head
+        weight: 1
+      - path: mesh_head_helmet
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: death_back
+      takeName: death_back
+      firstFrame: 0
+      lastFrame: 64
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: em_root
+        weight: 1
+      - path: em_root/em_pelvis
+        weight: 1
+      - path: em_root/em_pelvis/em_l_thigh
+        weight: 1
+      - path: em_root/em_pelvis/em_l_thigh/em_l_calf
+        weight: 1
+      - path: em_root/em_pelvis/em_l_thigh/em_l_calf/em_l_foot
+        weight: 1
+      - path: em_root/em_pelvis/em_l_thigh/em_l_calf/em_l_foot/em_l_toe0
+        weight: 1
+      - path: em_root/em_pelvis/em_r_thigh
+        weight: 1
+      - path: em_root/em_pelvis/em_r_thigh/em_r_calf
+        weight: 1
+      - path: em_root/em_pelvis/em_r_thigh/em_r_calf/em_r_foot
+        weight: 1
+      - path: em_root/em_pelvis/em_r_thigh/em_r_calf/em_r_foot/em_r_toe0
+        weight: 1
+      - path: em_root/em_pelvis/em_spine
+        weight: 1
+      - path: em_root/em_pelvis/em_spine/em_rotator
+        weight: 1
+      - path: em_root/em_pelvis/em_spine/em_spine1
+        weight: 1
+      - path: em_root/em_pelvis/em_spine/em_spine1/em_l_clavicle
+        weight: 1
+      - path: em_root/em_pelvis/em_spine/em_spine1/em_l_clavicle/em_l_upperarm
+        weight: 1
+      - path: em_root/em_pelvis/em_spine/em_spine1/em_l_clavicle/em_l_upperarm/em_l_forearm
+        weight: 1
+      - path: em_root/em_pelvis/em_spine/em_spine1/em_l_clavicle/em_l_upperarm/em_l_forearm/em_l_hand
+        weight: 1
+      - path: em_root/em_pelvis/em_spine/em_spine1/em_l_clavicle/em_l_upperarm/em_l_forearm/em_l_hand/em_fl_01
+        weight: 1
+      - path: em_root/em_pelvis/em_spine/em_spine1/em_l_clavicle/em_l_upperarm/em_l_forearm/em_l_hand/em_fl_01/em_fl_02
+        weight: 1
+      - path: em_root/em_pelvis/em_spine/em_spine1/em_l_clavicle/em_l_upperarm/em_l_forearm/em_l_hand/em_fl_11
+        weight: 1
+      - path: em_root/em_pelvis/em_spine/em_spine1/em_l_clavicle/em_l_upperarm/em_l_forearm/em_l_hand/em_fl_11/em_fl_12
+        weight: 1
+      - path: em_root/em_pelvis/em_spine/em_spine1/em_neck
+        weight: 1
+      - path: em_root/em_pelvis/em_spine/em_spine1/em_neck/em_head
+        weight: 1
+      - path: em_root/em_pelvis/em_spine/em_spine1/em_r_clavicle
+        weight: 1
+      - path: em_root/em_pelvis/em_spine/em_spine1/em_r_clavicle/em_r_upperarm
+        weight: 1
+      - path: em_root/em_pelvis/em_spine/em_spine1/em_r_clavicle/em_r_upperarm/em_r_forearm
+        weight: 1
+      - path: em_root/em_pelvis/em_spine/em_spine1/em_r_clavicle/em_r_upperarm/em_r_forearm/em_r_hand
+        weight: 1
+      - path: em_root/em_pelvis/em_spine/em_spine1/em_r_clavicle/em_r_upperarm/em_r_forearm/em_r_hand/em_fr_01
+        weight: 1
+      - path: em_root/em_pelvis/em_spine/em_spine1/em_r_clavicle/em_r_upperarm/em_r_forearm/em_r_hand/em_fr_01/em_fr_02
+        weight: 1
+      - path: em_root/em_pelvis/em_spine/em_spine1/em_r_clavicle/em_r_upperarm/em_r_forearm/em_r_hand/em_fr_11
+        weight: 1
+      - path: em_root/em_pelvis/em_spine/em_spine1/em_r_clavicle/em_r_upperarm/em_r_forearm/em_r_hand/em_fr_11/em_fr_12
+        weight: 1
+      - path: em_root/em_pelvis/em_spine/em_spine1/em_wiresl
+        weight: 1
+      - path: em_root/em_pelvis/em_spine/em_spine1/em_wiresr
+        weight: 1
+      - path: em_root/em_pelvis/em_spine/em_trigger
+        weight: 1
+      - path: mesh_electro_man
+        weight: 1
+      - path: mesh_head
+        weight: 1
+      - path: mesh_head_helmet
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: death_front
+      takeName: death_front
+      firstFrame: 0
+      lastFrame: 52
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: em_root
+        weight: 1
+      - path: em_root/em_pelvis
+        weight: 1
+      - path: em_root/em_pelvis/em_l_thigh
+        weight: 1
+      - path: em_root/em_pelvis/em_l_thigh/em_l_calf
+        weight: 1
+      - path: em_root/em_pelvis/em_l_thigh/em_l_calf/em_l_foot
+        weight: 1
+      - path: em_root/em_pelvis/em_l_thigh/em_l_calf/em_l_foot/em_l_toe0
+        weight: 1
+      - path: em_root/em_pelvis/em_r_thigh
+        weight: 1
+      - path: em_root/em_pelvis/em_r_thigh/em_r_calf
+        weight: 1
+      - path: em_root/em_pelvis/em_r_thigh/em_r_calf/em_r_foot
+        weight: 1
+      - path: em_root/em_pelvis/em_r_thigh/em_r_calf/em_r_foot/em_r_toe0
+        weight: 1
+      - path: em_root/em_pelvis/em_spine
+        weight: 1
+      - path: em_root/em_pelvis/em_spine/em_rotator
+        weight: 1
+      - path: em_root/em_pelvis/em_spine/em_spine1
+        weight: 1
+      - path: em_root/em_pelvis/em_spine/em_spine1/em_l_clavicle
+        weight: 1
+      - path: em_root/em_pelvis/em_spine/em_spine1/em_l_clavicle/em_l_upperarm
+        weight: 1
+      - path: em_root/em_pelvis/em_spine/em_spine1/em_l_clavicle/em_l_upperarm/em_l_forearm
+        weight: 1
+      - path: em_root/em_pelvis/em_spine/em_spine1/em_l_clavicle/em_l_upperarm/em_l_forearm/em_l_hand
+        weight: 1
+      - path: em_root/em_pelvis/em_spine/em_spine1/em_l_clavicle/em_l_upperarm/em_l_forearm/em_l_hand/em_fl_01
+        weight: 1
+      - path: em_root/em_pelvis/em_spine/em_spine1/em_l_clavicle/em_l_upperarm/em_l_forearm/em_l_hand/em_fl_01/em_fl_02
+        weight: 1
+      - path: em_root/em_pelvis/em_spine/em_spine1/em_l_clavicle/em_l_upperarm/em_l_forearm/em_l_hand/em_fl_11
+        weight: 1
+      - path: em_root/em_pelvis/em_spine/em_spine1/em_l_clavicle/em_l_upperarm/em_l_forearm/em_l_hand/em_fl_11/em_fl_12
+        weight: 1
+      - path: em_root/em_pelvis/em_spine/em_spine1/em_neck
+        weight: 1
+      - path: em_root/em_pelvis/em_spine/em_spine1/em_neck/em_head
+        weight: 1
+      - path: em_root/em_pelvis/em_spine/em_spine1/em_r_clavicle
+        weight: 1
+      - path: em_root/em_pelvis/em_spine/em_spine1/em_r_clavicle/em_r_upperarm
+        weight: 1
+      - path: em_root/em_pelvis/em_spine/em_spine1/em_r_clavicle/em_r_upperarm/em_r_forearm
+        weight: 1
+      - path: em_root/em_pelvis/em_spine/em_spine1/em_r_clavicle/em_r_upperarm/em_r_forearm/em_r_hand
+        weight: 1
+      - path: em_root/em_pelvis/em_spine/em_spine1/em_r_clavicle/em_r_upperarm/em_r_forearm/em_r_hand/em_fr_01
+        weight: 1
+      - path: em_root/em_pelvis/em_spine/em_spine1/em_r_clavicle/em_r_upperarm/em_r_forearm/em_r_hand/em_fr_01/em_fr_02
+        weight: 1
+      - path: em_root/em_pelvis/em_spine/em_spine1/em_r_clavicle/em_r_upperarm/em_r_forearm/em_r_hand/em_fr_11
+        weight: 1
+      - path: em_root/em_pelvis/em_spine/em_spine1/em_r_clavicle/em_r_upperarm/em_r_forearm/em_r_hand/em_fr_11/em_fr_12
+        weight: 1
+      - path: em_root/em_pelvis/em_spine/em_spine1/em_wiresl
+        weight: 1
+      - path: em_root/em_pelvis/em_spine/em_spine1/em_wiresr
+        weight: 1
+      - path: em_root/em_pelvis/em_spine/em_trigger
+        weight: 1
+      - path: mesh_electro_man
+        weight: 1
+      - path: mesh_head
+        weight: 1
+      - path: mesh_head_helmet
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: fire_in
+      takeName: fire_in
+      firstFrame: 0
+      lastFrame: 26
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: em_root
+        weight: 1
+      - path: em_root/em_pelvis
+        weight: 1
+      - path: em_root/em_pelvis/em_l_thigh
+        weight: 1
+      - path: em_root/em_pelvis/em_l_thigh/em_l_calf
+        weight: 1
+      - path: em_root/em_pelvis/em_l_thigh/em_l_calf/em_l_foot
+        weight: 1
+      - path: em_root/em_pelvis/em_l_thigh/em_l_calf/em_l_foot/em_l_toe0
+        weight: 1
+      - path: em_root/em_pelvis/em_r_thigh
+        weight: 1
+      - path: em_root/em_pelvis/em_r_thigh/em_r_calf
+        weight: 1
+      - path: em_root/em_pelvis/em_r_thigh/em_r_calf/em_r_foot
+        weight: 1
+      - path: em_root/em_pelvis/em_r_thigh/em_r_calf/em_r_foot/em_r_toe0
+        weight: 1
+      - path: em_root/em_pelvis/em_spine
+        weight: 1
+      - path: em_root/em_pelvis/em_spine/em_rotator
+        weight: 1
+      - path: em_root/em_pelvis/em_spine/em_spine1
+        weight: 1
+      - path: em_root/em_pelvis/em_spine/em_spine1/em_l_clavicle
+        weight: 1
+      - path: em_root/em_pelvis/em_spine/em_spine1/em_l_clavicle/em_l_upperarm
+        weight: 1
+      - path: em_root/em_pelvis/em_spine/em_spine1/em_l_clavicle/em_l_upperarm/em_l_forearm
+        weight: 1
+      - path: em_root/em_pelvis/em_spine/em_spine1/em_l_clavicle/em_l_upperarm/em_l_forearm/em_l_hand
+        weight: 1
+      - path: em_root/em_pelvis/em_spine/em_spine1/em_l_clavicle/em_l_upperarm/em_l_forearm/em_l_hand/em_fl_01
+        weight: 1
+      - path: em_root/em_pelvis/em_spine/em_spine1/em_l_clavicle/em_l_upperarm/em_l_forearm/em_l_hand/em_fl_01/em_fl_02
+        weight: 1
+      - path: em_root/em_pelvis/em_spine/em_spine1/em_l_clavicle/em_l_upperarm/em_l_forearm/em_l_hand/em_fl_11
+        weight: 1
+      - path: em_root/em_pelvis/em_spine/em_spine1/em_l_clavicle/em_l_upperarm/em_l_forearm/em_l_hand/em_fl_11/em_fl_12
+        weight: 1
+      - path: em_root/em_pelvis/em_spine/em_spine1/em_neck
+        weight: 1
+      - path: em_root/em_pelvis/em_spine/em_spine1/em_neck/em_head
+        weight: 1
+      - path: em_root/em_pelvis/em_spine/em_spine1/em_r_clavicle
+        weight: 1
+      - path: em_root/em_pelvis/em_spine/em_spine1/em_r_clavicle/em_r_upperarm
+        weight: 1
+      - path: em_root/em_pelvis/em_spine/em_spine1/em_r_clavicle/em_r_upperarm/em_r_forearm
+        weight: 1
+      - path: em_root/em_pelvis/em_spine/em_spine1/em_r_clavicle/em_r_upperarm/em_r_forearm/em_r_hand
+        weight: 1
+      - path: em_root/em_pelvis/em_spine/em_spine1/em_r_clavicle/em_r_upperarm/em_r_forearm/em_r_hand/em_fr_01
+        weight: 1
+      - path: em_root/em_pelvis/em_spine/em_spine1/em_r_clavicle/em_r_upperarm/em_r_forearm/em_r_hand/em_fr_01/em_fr_02
+        weight: 1
+      - path: em_root/em_pelvis/em_spine/em_spine1/em_r_clavicle/em_r_upperarm/em_r_forearm/em_r_hand/em_fr_11
+        weight: 1
+      - path: em_root/em_pelvis/em_spine/em_spine1/em_r_clavicle/em_r_upperarm/em_r_forearm/em_r_hand/em_fr_11/em_fr_12
+        weight: 1
+      - path: em_root/em_pelvis/em_spine/em_spine1/em_wiresl
+        weight: 1
+      - path: em_root/em_pelvis/em_spine/em_spine1/em_wiresr
+        weight: 1
+      - path: em_root/em_pelvis/em_spine/em_trigger
+        weight: 1
+      - path: mesh_electro_man
+        weight: 1
+      - path: mesh_head
+        weight: 1
+      - path: mesh_head_helmet
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: fire_action
+      takeName: fire_action
+      firstFrame: 0
+      lastFrame: 16
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: em_root
+        weight: 1
+      - path: em_root/em_pelvis
+        weight: 1
+      - path: em_root/em_pelvis/em_l_thigh
+        weight: 1
+      - path: em_root/em_pelvis/em_l_thigh/em_l_calf
+        weight: 1
+      - path: em_root/em_pelvis/em_l_thigh/em_l_calf/em_l_foot
+        weight: 1
+      - path: em_root/em_pelvis/em_l_thigh/em_l_calf/em_l_foot/em_l_toe0
+        weight: 1
+      - path: em_root/em_pelvis/em_r_thigh
+        weight: 1
+      - path: em_root/em_pelvis/em_r_thigh/em_r_calf
+        weight: 1
+      - path: em_root/em_pelvis/em_r_thigh/em_r_calf/em_r_foot
+        weight: 1
+      - path: em_root/em_pelvis/em_r_thigh/em_r_calf/em_r_foot/em_r_toe0
+        weight: 1
+      - path: em_root/em_pelvis/em_spine
+        weight: 1
+      - path: em_root/em_pelvis/em_spine/em_rotator
+        weight: 1
+      - path: em_root/em_pelvis/em_spine/em_spine1
+        weight: 1
+      - path: em_root/em_pelvis/em_spine/em_spine1/em_l_clavicle
+        weight: 1
+      - path: em_root/em_pelvis/em_spine/em_spine1/em_l_clavicle/em_l_upperarm
+        weight: 1
+      - path: em_root/em_pelvis/em_spine/em_spine1/em_l_clavicle/em_l_upperarm/em_l_forearm
+        weight: 1
+      - path: em_root/em_pelvis/em_spine/em_spine1/em_l_clavicle/em_l_upperarm/em_l_forearm/em_l_hand
+        weight: 1
+      - path: em_root/em_pelvis/em_spine/em_spine1/em_l_clavicle/em_l_upperarm/em_l_forearm/em_l_hand/em_fl_01
+        weight: 1
+      - path: em_root/em_pelvis/em_spine/em_spine1/em_l_clavicle/em_l_upperarm/em_l_forearm/em_l_hand/em_fl_01/em_fl_02
+        weight: 1
+      - path: em_root/em_pelvis/em_spine/em_spine1/em_l_clavicle/em_l_upperarm/em_l_forearm/em_l_hand/em_fl_11
+        weight: 1
+      - path: em_root/em_pelvis/em_spine/em_spine1/em_l_clavicle/em_l_upperarm/em_l_forearm/em_l_hand/em_fl_11/em_fl_12
+        weight: 1
+      - path: em_root/em_pelvis/em_spine/em_spine1/em_neck
+        weight: 1
+      - path: em_root/em_pelvis/em_spine/em_spine1/em_neck/em_head
+        weight: 1
+      - path: em_root/em_pelvis/em_spine/em_spine1/em_r_clavicle
+        weight: 1
+      - path: em_root/em_pelvis/em_spine/em_spine1/em_r_clavicle/em_r_upperarm
+        weight: 1
+      - path: em_root/em_pelvis/em_spine/em_spine1/em_r_clavicle/em_r_upperarm/em_r_forearm
+        weight: 1
+      - path: em_root/em_pelvis/em_spine/em_spine1/em_r_clavicle/em_r_upperarm/em_r_forearm/em_r_hand
+        weight: 1
+      - path: em_root/em_pelvis/em_spine/em_spine1/em_r_clavicle/em_r_upperarm/em_r_forearm/em_r_hand/em_fr_01
+        weight: 1
+      - path: em_root/em_pelvis/em_spine/em_spine1/em_r_clavicle/em_r_upperarm/em_r_forearm/em_r_hand/em_fr_01/em_fr_02
+        weight: 1
+      - path: em_root/em_pelvis/em_spine/em_spine1/em_r_clavicle/em_r_upperarm/em_r_forearm/em_r_hand/em_fr_11
+        weight: 1
+      - path: em_root/em_pelvis/em_spine/em_spine1/em_r_clavicle/em_r_upperarm/em_r_forearm/em_r_hand/em_fr_11/em_fr_12
+        weight: 1
+      - path: em_root/em_pelvis/em_spine/em_spine1/em_wiresl
+        weight: 1
+      - path: em_root/em_pelvis/em_spine/em_spine1/em_wiresr
+        weight: 1
+      - path: em_root/em_pelvis/em_spine/em_trigger
+        weight: 1
+      - path: mesh_electro_man
+        weight: 1
+      - path: mesh_head
+        weight: 1
+      - path: mesh_head_helmet
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: fire_out
+      takeName: fire_out
+      firstFrame: 0
+      lastFrame: 20
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: em_root
+        weight: 1
+      - path: em_root/em_pelvis
+        weight: 1
+      - path: em_root/em_pelvis/em_l_thigh
+        weight: 1
+      - path: em_root/em_pelvis/em_l_thigh/em_l_calf
+        weight: 1
+      - path: em_root/em_pelvis/em_l_thigh/em_l_calf/em_l_foot
+        weight: 1
+      - path: em_root/em_pelvis/em_l_thigh/em_l_calf/em_l_foot/em_l_toe0
+        weight: 1
+      - path: em_root/em_pelvis/em_r_thigh
+        weight: 1
+      - path: em_root/em_pelvis/em_r_thigh/em_r_calf
+        weight: 1
+      - path: em_root/em_pelvis/em_r_thigh/em_r_calf/em_r_foot
+        weight: 1
+      - path: em_root/em_pelvis/em_r_thigh/em_r_calf/em_r_foot/em_r_toe0
+        weight: 1
+      - path: em_root/em_pelvis/em_spine
+        weight: 1
+      - path: em_root/em_pelvis/em_spine/em_rotator
+        weight: 1
+      - path: em_root/em_pelvis/em_spine/em_spine1
+        weight: 1
+      - path: em_root/em_pelvis/em_spine/em_spine1/em_l_clavicle
+        weight: 1
+      - path: em_root/em_pelvis/em_spine/em_spine1/em_l_clavicle/em_l_upperarm
+        weight: 1
+      - path: em_root/em_pelvis/em_spine/em_spine1/em_l_clavicle/em_l_upperarm/em_l_forearm
+        weight: 1
+      - path: em_root/em_pelvis/em_spine/em_spine1/em_l_clavicle/em_l_upperarm/em_l_forearm/em_l_hand
+        weight: 1
+      - path: em_root/em_pelvis/em_spine/em_spine1/em_l_clavicle/em_l_upperarm/em_l_forearm/em_l_hand/em_fl_01
+        weight: 1
+      - path: em_root/em_pelvis/em_spine/em_spine1/em_l_clavicle/em_l_upperarm/em_l_forearm/em_l_hand/em_fl_01/em_fl_02
+        weight: 1
+      - path: em_root/em_pelvis/em_spine/em_spine1/em_l_clavicle/em_l_upperarm/em_l_forearm/em_l_hand/em_fl_11
+        weight: 1
+      - path: em_root/em_pelvis/em_spine/em_spine1/em_l_clavicle/em_l_upperarm/em_l_forearm/em_l_hand/em_fl_11/em_fl_12
+        weight: 1
+      - path: em_root/em_pelvis/em_spine/em_spine1/em_neck
+        weight: 1
+      - path: em_root/em_pelvis/em_spine/em_spine1/em_neck/em_head
+        weight: 1
+      - path: em_root/em_pelvis/em_spine/em_spine1/em_r_clavicle
+        weight: 1
+      - path: em_root/em_pelvis/em_spine/em_spine1/em_r_clavicle/em_r_upperarm
+        weight: 1
+      - path: em_root/em_pelvis/em_spine/em_spine1/em_r_clavicle/em_r_upperarm/em_r_forearm
+        weight: 1
+      - path: em_root/em_pelvis/em_spine/em_spine1/em_r_clavicle/em_r_upperarm/em_r_forearm/em_r_hand
+        weight: 1
+      - path: em_root/em_pelvis/em_spine/em_spine1/em_r_clavicle/em_r_upperarm/em_r_forearm/em_r_hand/em_fr_01
+        weight: 1
+      - path: em_root/em_pelvis/em_spine/em_spine1/em_r_clavicle/em_r_upperarm/em_r_forearm/em_r_hand/em_fr_01/em_fr_02
+        weight: 1
+      - path: em_root/em_pelvis/em_spine/em_spine1/em_r_clavicle/em_r_upperarm/em_r_forearm/em_r_hand/em_fr_11
+        weight: 1
+      - path: em_root/em_pelvis/em_spine/em_spine1/em_r_clavicle/em_r_upperarm/em_r_forearm/em_r_hand/em_fr_11/em_fr_12
+        weight: 1
+      - path: em_root/em_pelvis/em_spine/em_spine1/em_wiresl
+        weight: 1
+      - path: em_root/em_pelvis/em_spine/em_spine1/em_wiresr
+        weight: 1
+      - path: em_root/em_pelvis/em_spine/em_trigger
+        weight: 1
+      - path: mesh_electro_man
+        weight: 1
+      - path: mesh_head
+        weight: 1
+      - path: mesh_head_helmet
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: hit
+      takeName: hit
+      firstFrame: 0
+      lastFrame: 37
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: em_root
+        weight: 1
+      - path: em_root/em_pelvis
+        weight: 1
+      - path: em_root/em_pelvis/em_l_thigh
+        weight: 1
+      - path: em_root/em_pelvis/em_l_thigh/em_l_calf
+        weight: 1
+      - path: em_root/em_pelvis/em_l_thigh/em_l_calf/em_l_foot
+        weight: 1
+      - path: em_root/em_pelvis/em_l_thigh/em_l_calf/em_l_foot/em_l_toe0
+        weight: 1
+      - path: em_root/em_pelvis/em_r_thigh
+        weight: 1
+      - path: em_root/em_pelvis/em_r_thigh/em_r_calf
+        weight: 1
+      - path: em_root/em_pelvis/em_r_thigh/em_r_calf/em_r_foot
+        weight: 1
+      - path: em_root/em_pelvis/em_r_thigh/em_r_calf/em_r_foot/em_r_toe0
+        weight: 1
+      - path: em_root/em_pelvis/em_spine
+        weight: 1
+      - path: em_root/em_pelvis/em_spine/em_rotator
+        weight: 1
+      - path: em_root/em_pelvis/em_spine/em_spine1
+        weight: 1
+      - path: em_root/em_pelvis/em_spine/em_spine1/em_l_clavicle
+        weight: 1
+      - path: em_root/em_pelvis/em_spine/em_spine1/em_l_clavicle/em_l_upperarm
+        weight: 1
+      - path: em_root/em_pelvis/em_spine/em_spine1/em_l_clavicle/em_l_upperarm/em_l_forearm
+        weight: 1
+      - path: em_root/em_pelvis/em_spine/em_spine1/em_l_clavicle/em_l_upperarm/em_l_forearm/em_l_hand
+        weight: 1
+      - path: em_root/em_pelvis/em_spine/em_spine1/em_l_clavicle/em_l_upperarm/em_l_forearm/em_l_hand/em_fl_01
+        weight: 1
+      - path: em_root/em_pelvis/em_spine/em_spine1/em_l_clavicle/em_l_upperarm/em_l_forearm/em_l_hand/em_fl_01/em_fl_02
+        weight: 1
+      - path: em_root/em_pelvis/em_spine/em_spine1/em_l_clavicle/em_l_upperarm/em_l_forearm/em_l_hand/em_fl_11
+        weight: 1
+      - path: em_root/em_pelvis/em_spine/em_spine1/em_l_clavicle/em_l_upperarm/em_l_forearm/em_l_hand/em_fl_11/em_fl_12
+        weight: 1
+      - path: em_root/em_pelvis/em_spine/em_spine1/em_neck
+        weight: 1
+      - path: em_root/em_pelvis/em_spine/em_spine1/em_neck/em_head
+        weight: 1
+      - path: em_root/em_pelvis/em_spine/em_spine1/em_r_clavicle
+        weight: 1
+      - path: em_root/em_pelvis/em_spine/em_spine1/em_r_clavicle/em_r_upperarm
+        weight: 1
+      - path: em_root/em_pelvis/em_spine/em_spine1/em_r_clavicle/em_r_upperarm/em_r_forearm
+        weight: 1
+      - path: em_root/em_pelvis/em_spine/em_spine1/em_r_clavicle/em_r_upperarm/em_r_forearm/em_r_hand
+        weight: 1
+      - path: em_root/em_pelvis/em_spine/em_spine1/em_r_clavicle/em_r_upperarm/em_r_forearm/em_r_hand/em_fr_01
+        weight: 1
+      - path: em_root/em_pelvis/em_spine/em_spine1/em_r_clavicle/em_r_upperarm/em_r_forearm/em_r_hand/em_fr_01/em_fr_02
+        weight: 1
+      - path: em_root/em_pelvis/em_spine/em_spine1/em_r_clavicle/em_r_upperarm/em_r_forearm/em_r_hand/em_fr_11
+        weight: 1
+      - path: em_root/em_pelvis/em_spine/em_spine1/em_r_clavicle/em_r_upperarm/em_r_forearm/em_r_hand/em_fr_11/em_fr_12
+        weight: 1
+      - path: em_root/em_pelvis/em_spine/em_spine1/em_wiresl
+        weight: 1
+      - path: em_root/em_pelvis/em_spine/em_spine1/em_wiresr
+        weight: 1
+      - path: em_root/em_pelvis/em_spine/em_trigger
+        weight: 1
+      - path: mesh_electro_man
+        weight: 1
+      - path: mesh_head
+        weight: 1
+      - path: mesh_head_helmet
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: idle_lookaround
+      takeName: idle_lookaround
+      firstFrame: 0
+      lastFrame: 240
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: em_root
+        weight: 1
+      - path: em_root/em_pelvis
+        weight: 1
+      - path: em_root/em_pelvis/em_l_thigh
+        weight: 1
+      - path: em_root/em_pelvis/em_l_thigh/em_l_calf
+        weight: 1
+      - path: em_root/em_pelvis/em_l_thigh/em_l_calf/em_l_foot
+        weight: 1
+      - path: em_root/em_pelvis/em_l_thigh/em_l_calf/em_l_foot/em_l_toe0
+        weight: 1
+      - path: em_root/em_pelvis/em_r_thigh
+        weight: 1
+      - path: em_root/em_pelvis/em_r_thigh/em_r_calf
+        weight: 1
+      - path: em_root/em_pelvis/em_r_thigh/em_r_calf/em_r_foot
+        weight: 1
+      - path: em_root/em_pelvis/em_r_thigh/em_r_calf/em_r_foot/em_r_toe0
+        weight: 1
+      - path: em_root/em_pelvis/em_spine
+        weight: 1
+      - path: em_root/em_pelvis/em_spine/em_rotator
+        weight: 1
+      - path: em_root/em_pelvis/em_spine/em_spine1
+        weight: 1
+      - path: em_root/em_pelvis/em_spine/em_spine1/em_l_clavicle
+        weight: 1
+      - path: em_root/em_pelvis/em_spine/em_spine1/em_l_clavicle/em_l_upperarm
+        weight: 1
+      - path: em_root/em_pelvis/em_spine/em_spine1/em_l_clavicle/em_l_upperarm/em_l_forearm
+        weight: 1
+      - path: em_root/em_pelvis/em_spine/em_spine1/em_l_clavicle/em_l_upperarm/em_l_forearm/em_l_hand
+        weight: 1
+      - path: em_root/em_pelvis/em_spine/em_spine1/em_l_clavicle/em_l_upperarm/em_l_forearm/em_l_hand/em_fl_01
+        weight: 1
+      - path: em_root/em_pelvis/em_spine/em_spine1/em_l_clavicle/em_l_upperarm/em_l_forearm/em_l_hand/em_fl_01/em_fl_02
+        weight: 1
+      - path: em_root/em_pelvis/em_spine/em_spine1/em_l_clavicle/em_l_upperarm/em_l_forearm/em_l_hand/em_fl_11
+        weight: 1
+      - path: em_root/em_pelvis/em_spine/em_spine1/em_l_clavicle/em_l_upperarm/em_l_forearm/em_l_hand/em_fl_11/em_fl_12
+        weight: 1
+      - path: em_root/em_pelvis/em_spine/em_spine1/em_neck
+        weight: 1
+      - path: em_root/em_pelvis/em_spine/em_spine1/em_neck/em_head
+        weight: 1
+      - path: em_root/em_pelvis/em_spine/em_spine1/em_r_clavicle
+        weight: 1
+      - path: em_root/em_pelvis/em_spine/em_spine1/em_r_clavicle/em_r_upperarm
+        weight: 1
+      - path: em_root/em_pelvis/em_spine/em_spine1/em_r_clavicle/em_r_upperarm/em_r_forearm
+        weight: 1
+      - path: em_root/em_pelvis/em_spine/em_spine1/em_r_clavicle/em_r_upperarm/em_r_forearm/em_r_hand
+        weight: 1
+      - path: em_root/em_pelvis/em_spine/em_spine1/em_r_clavicle/em_r_upperarm/em_r_forearm/em_r_hand/em_fr_01
+        weight: 1
+      - path: em_root/em_pelvis/em_spine/em_spine1/em_r_clavicle/em_r_upperarm/em_r_forearm/em_r_hand/em_fr_01/em_fr_02
+        weight: 1
+      - path: em_root/em_pelvis/em_spine/em_spine1/em_r_clavicle/em_r_upperarm/em_r_forearm/em_r_hand/em_fr_11
+        weight: 1
+      - path: em_root/em_pelvis/em_spine/em_spine1/em_r_clavicle/em_r_upperarm/em_r_forearm/em_r_hand/em_fr_11/em_fr_12
+        weight: 1
+      - path: em_root/em_pelvis/em_spine/em_spine1/em_wiresl
+        weight: 1
+      - path: em_root/em_pelvis/em_spine/em_spine1/em_wiresr
+        weight: 1
+      - path: em_root/em_pelvis/em_spine/em_trigger
+        weight: 1
+      - path: mesh_electro_man
+        weight: 1
+      - path: mesh_head
+        weight: 1
+      - path: mesh_head_helmet
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: idle_short
+      takeName: idle_short
+      firstFrame: 0
+      lastFrame: 60
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: em_root
+        weight: 1
+      - path: em_root/em_pelvis
+        weight: 1
+      - path: em_root/em_pelvis/em_l_thigh
+        weight: 1
+      - path: em_root/em_pelvis/em_l_thigh/em_l_calf
+        weight: 1
+      - path: em_root/em_pelvis/em_l_thigh/em_l_calf/em_l_foot
+        weight: 1
+      - path: em_root/em_pelvis/em_l_thigh/em_l_calf/em_l_foot/em_l_toe0
+        weight: 1
+      - path: em_root/em_pelvis/em_r_thigh
+        weight: 1
+      - path: em_root/em_pelvis/em_r_thigh/em_r_calf
+        weight: 1
+      - path: em_root/em_pelvis/em_r_thigh/em_r_calf/em_r_foot
+        weight: 1
+      - path: em_root/em_pelvis/em_r_thigh/em_r_calf/em_r_foot/em_r_toe0
+        weight: 1
+      - path: em_root/em_pelvis/em_spine
+        weight: 1
+      - path: em_root/em_pelvis/em_spine/em_rotator
+        weight: 1
+      - path: em_root/em_pelvis/em_spine/em_spine1
+        weight: 1
+      - path: em_root/em_pelvis/em_spine/em_spine1/em_l_clavicle
+        weight: 1
+      - path: em_root/em_pelvis/em_spine/em_spine1/em_l_clavicle/em_l_upperarm
+        weight: 1
+      - path: em_root/em_pelvis/em_spine/em_spine1/em_l_clavicle/em_l_upperarm/em_l_forearm
+        weight: 1
+      - path: em_root/em_pelvis/em_spine/em_spine1/em_l_clavicle/em_l_upperarm/em_l_forearm/em_l_hand
+        weight: 1
+      - path: em_root/em_pelvis/em_spine/em_spine1/em_l_clavicle/em_l_upperarm/em_l_forearm/em_l_hand/em_fl_01
+        weight: 1
+      - path: em_root/em_pelvis/em_spine/em_spine1/em_l_clavicle/em_l_upperarm/em_l_forearm/em_l_hand/em_fl_01/em_fl_02
+        weight: 1
+      - path: em_root/em_pelvis/em_spine/em_spine1/em_l_clavicle/em_l_upperarm/em_l_forearm/em_l_hand/em_fl_11
+        weight: 1
+      - path: em_root/em_pelvis/em_spine/em_spine1/em_l_clavicle/em_l_upperarm/em_l_forearm/em_l_hand/em_fl_11/em_fl_12
+        weight: 1
+      - path: em_root/em_pelvis/em_spine/em_spine1/em_neck
+        weight: 1
+      - path: em_root/em_pelvis/em_spine/em_spine1/em_neck/em_head
+        weight: 1
+      - path: em_root/em_pelvis/em_spine/em_spine1/em_r_clavicle
+        weight: 1
+      - path: em_root/em_pelvis/em_spine/em_spine1/em_r_clavicle/em_r_upperarm
+        weight: 1
+      - path: em_root/em_pelvis/em_spine/em_spine1/em_r_clavicle/em_r_upperarm/em_r_forearm
+        weight: 1
+      - path: em_root/em_pelvis/em_spine/em_spine1/em_r_clavicle/em_r_upperarm/em_r_forearm/em_r_hand
+        weight: 1
+      - path: em_root/em_pelvis/em_spine/em_spine1/em_r_clavicle/em_r_upperarm/em_r_forearm/em_r_hand/em_fr_01
+        weight: 1
+      - path: em_root/em_pelvis/em_spine/em_spine1/em_r_clavicle/em_r_upperarm/em_r_forearm/em_r_hand/em_fr_01/em_fr_02
+        weight: 1
+      - path: em_root/em_pelvis/em_spine/em_spine1/em_r_clavicle/em_r_upperarm/em_r_forearm/em_r_hand/em_fr_11
+        weight: 1
+      - path: em_root/em_pelvis/em_spine/em_spine1/em_r_clavicle/em_r_upperarm/em_r_forearm/em_r_hand/em_fr_11/em_fr_12
+        weight: 1
+      - path: em_root/em_pelvis/em_spine/em_spine1/em_wiresl
+        weight: 1
+      - path: em_root/em_pelvis/em_spine/em_spine1/em_wiresr
+        weight: 1
+      - path: em_root/em_pelvis/em_spine/em_trigger
+        weight: 1
+      - path: mesh_electro_man
+        weight: 1
+      - path: mesh_head
+        weight: 1
+      - path: mesh_head_helmet
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: turn_left_45
+      takeName: turn_left_45
+      firstFrame: 0
+      lastFrame: 24
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: em_root
+        weight: 1
+      - path: em_root/em_pelvis
+        weight: 1
+      - path: em_root/em_pelvis/em_l_thigh
+        weight: 1
+      - path: em_root/em_pelvis/em_l_thigh/em_l_calf
+        weight: 1
+      - path: em_root/em_pelvis/em_l_thigh/em_l_calf/em_l_foot
+        weight: 1
+      - path: em_root/em_pelvis/em_l_thigh/em_l_calf/em_l_foot/em_l_toe0
+        weight: 1
+      - path: em_root/em_pelvis/em_r_thigh
+        weight: 1
+      - path: em_root/em_pelvis/em_r_thigh/em_r_calf
+        weight: 1
+      - path: em_root/em_pelvis/em_r_thigh/em_r_calf/em_r_foot
+        weight: 1
+      - path: em_root/em_pelvis/em_r_thigh/em_r_calf/em_r_foot/em_r_toe0
+        weight: 1
+      - path: em_root/em_pelvis/em_spine
+        weight: 1
+      - path: em_root/em_pelvis/em_spine/em_rotator
+        weight: 1
+      - path: em_root/em_pelvis/em_spine/em_spine1
+        weight: 1
+      - path: em_root/em_pelvis/em_spine/em_spine1/em_l_clavicle
+        weight: 1
+      - path: em_root/em_pelvis/em_spine/em_spine1/em_l_clavicle/em_l_upperarm
+        weight: 1
+      - path: em_root/em_pelvis/em_spine/em_spine1/em_l_clavicle/em_l_upperarm/em_l_forearm
+        weight: 1
+      - path: em_root/em_pelvis/em_spine/em_spine1/em_l_clavicle/em_l_upperarm/em_l_forearm/em_l_hand
+        weight: 1
+      - path: em_root/em_pelvis/em_spine/em_spine1/em_l_clavicle/em_l_upperarm/em_l_forearm/em_l_hand/em_fl_01
+        weight: 1
+      - path: em_root/em_pelvis/em_spine/em_spine1/em_l_clavicle/em_l_upperarm/em_l_forearm/em_l_hand/em_fl_01/em_fl_02
+        weight: 1
+      - path: em_root/em_pelvis/em_spine/em_spine1/em_l_clavicle/em_l_upperarm/em_l_forearm/em_l_hand/em_fl_11
+        weight: 1
+      - path: em_root/em_pelvis/em_spine/em_spine1/em_l_clavicle/em_l_upperarm/em_l_forearm/em_l_hand/em_fl_11/em_fl_12
+        weight: 1
+      - path: em_root/em_pelvis/em_spine/em_spine1/em_neck
+        weight: 1
+      - path: em_root/em_pelvis/em_spine/em_spine1/em_neck/em_head
+        weight: 1
+      - path: em_root/em_pelvis/em_spine/em_spine1/em_r_clavicle
+        weight: 1
+      - path: em_root/em_pelvis/em_spine/em_spine1/em_r_clavicle/em_r_upperarm
+        weight: 1
+      - path: em_root/em_pelvis/em_spine/em_spine1/em_r_clavicle/em_r_upperarm/em_r_forearm
+        weight: 1
+      - path: em_root/em_pelvis/em_spine/em_spine1/em_r_clavicle/em_r_upperarm/em_r_forearm/em_r_hand
+        weight: 1
+      - path: em_root/em_pelvis/em_spine/em_spine1/em_r_clavicle/em_r_upperarm/em_r_forearm/em_r_hand/em_fr_01
+        weight: 1
+      - path: em_root/em_pelvis/em_spine/em_spine1/em_r_clavicle/em_r_upperarm/em_r_forearm/em_r_hand/em_fr_01/em_fr_02
+        weight: 1
+      - path: em_root/em_pelvis/em_spine/em_spine1/em_r_clavicle/em_r_upperarm/em_r_forearm/em_r_hand/em_fr_11
+        weight: 1
+      - path: em_root/em_pelvis/em_spine/em_spine1/em_r_clavicle/em_r_upperarm/em_r_forearm/em_r_hand/em_fr_11/em_fr_12
+        weight: 1
+      - path: em_root/em_pelvis/em_spine/em_spine1/em_wiresl
+        weight: 1
+      - path: em_root/em_pelvis/em_spine/em_spine1/em_wiresr
+        weight: 1
+      - path: em_root/em_pelvis/em_spine/em_trigger
+        weight: 1
+      - path: mesh_electro_man
+        weight: 1
+      - path: mesh_head
+        weight: 1
+      - path: mesh_head_helmet
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: turn_left_90
+      takeName: turn_left_90
+      firstFrame: 0
+      lastFrame: 24
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: em_root
+        weight: 1
+      - path: em_root/em_pelvis
+        weight: 1
+      - path: em_root/em_pelvis/em_l_thigh
+        weight: 1
+      - path: em_root/em_pelvis/em_l_thigh/em_l_calf
+        weight: 1
+      - path: em_root/em_pelvis/em_l_thigh/em_l_calf/em_l_foot
+        weight: 1
+      - path: em_root/em_pelvis/em_l_thigh/em_l_calf/em_l_foot/em_l_toe0
+        weight: 1
+      - path: em_root/em_pelvis/em_r_thigh
+        weight: 1
+      - path: em_root/em_pelvis/em_r_thigh/em_r_calf
+        weight: 1
+      - path: em_root/em_pelvis/em_r_thigh/em_r_calf/em_r_foot
+        weight: 1
+      - path: em_root/em_pelvis/em_r_thigh/em_r_calf/em_r_foot/em_r_toe0
+        weight: 1
+      - path: em_root/em_pelvis/em_spine
+        weight: 1
+      - path: em_root/em_pelvis/em_spine/em_rotator
+        weight: 1
+      - path: em_root/em_pelvis/em_spine/em_spine1
+        weight: 1
+      - path: em_root/em_pelvis/em_spine/em_spine1/em_l_clavicle
+        weight: 1
+      - path: em_root/em_pelvis/em_spine/em_spine1/em_l_clavicle/em_l_upperarm
+        weight: 1
+      - path: em_root/em_pelvis/em_spine/em_spine1/em_l_clavicle/em_l_upperarm/em_l_forearm
+        weight: 1
+      - path: em_root/em_pelvis/em_spine/em_spine1/em_l_clavicle/em_l_upperarm/em_l_forearm/em_l_hand
+        weight: 1
+      - path: em_root/em_pelvis/em_spine/em_spine1/em_l_clavicle/em_l_upperarm/em_l_forearm/em_l_hand/em_fl_01
+        weight: 1
+      - path: em_root/em_pelvis/em_spine/em_spine1/em_l_clavicle/em_l_upperarm/em_l_forearm/em_l_hand/em_fl_01/em_fl_02
+        weight: 1
+      - path: em_root/em_pelvis/em_spine/em_spine1/em_l_clavicle/em_l_upperarm/em_l_forearm/em_l_hand/em_fl_11
+        weight: 1
+      - path: em_root/em_pelvis/em_spine/em_spine1/em_l_clavicle/em_l_upperarm/em_l_forearm/em_l_hand/em_fl_11/em_fl_12
+        weight: 1
+      - path: em_root/em_pelvis/em_spine/em_spine1/em_neck
+        weight: 1
+      - path: em_root/em_pelvis/em_spine/em_spine1/em_neck/em_head
+        weight: 1
+      - path: em_root/em_pelvis/em_spine/em_spine1/em_r_clavicle
+        weight: 1
+      - path: em_root/em_pelvis/em_spine/em_spine1/em_r_clavicle/em_r_upperarm
+        weight: 1
+      - path: em_root/em_pelvis/em_spine/em_spine1/em_r_clavicle/em_r_upperarm/em_r_forearm
+        weight: 1
+      - path: em_root/em_pelvis/em_spine/em_spine1/em_r_clavicle/em_r_upperarm/em_r_forearm/em_r_hand
+        weight: 1
+      - path: em_root/em_pelvis/em_spine/em_spine1/em_r_clavicle/em_r_upperarm/em_r_forearm/em_r_hand/em_fr_01
+        weight: 1
+      - path: em_root/em_pelvis/em_spine/em_spine1/em_r_clavicle/em_r_upperarm/em_r_forearm/em_r_hand/em_fr_01/em_fr_02
+        weight: 1
+      - path: em_root/em_pelvis/em_spine/em_spine1/em_r_clavicle/em_r_upperarm/em_r_forearm/em_r_hand/em_fr_11
+        weight: 1
+      - path: em_root/em_pelvis/em_spine/em_spine1/em_r_clavicle/em_r_upperarm/em_r_forearm/em_r_hand/em_fr_11/em_fr_12
+        weight: 1
+      - path: em_root/em_pelvis/em_spine/em_spine1/em_wiresl
+        weight: 1
+      - path: em_root/em_pelvis/em_spine/em_spine1/em_wiresr
+        weight: 1
+      - path: em_root/em_pelvis/em_spine/em_trigger
+        weight: 1
+      - path: mesh_electro_man
+        weight: 1
+      - path: mesh_head
+        weight: 1
+      - path: mesh_head_helmet
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: turn_left_180A
+      takeName: turn_left_180A
+      firstFrame: 0
+      lastFrame: 24
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: em_root
+        weight: 1
+      - path: em_root/em_pelvis
+        weight: 1
+      - path: em_root/em_pelvis/em_l_thigh
+        weight: 1
+      - path: em_root/em_pelvis/em_l_thigh/em_l_calf
+        weight: 1
+      - path: em_root/em_pelvis/em_l_thigh/em_l_calf/em_l_foot
+        weight: 1
+      - path: em_root/em_pelvis/em_l_thigh/em_l_calf/em_l_foot/em_l_toe0
+        weight: 1
+      - path: em_root/em_pelvis/em_r_thigh
+        weight: 1
+      - path: em_root/em_pelvis/em_r_thigh/em_r_calf
+        weight: 1
+      - path: em_root/em_pelvis/em_r_thigh/em_r_calf/em_r_foot
+        weight: 1
+      - path: em_root/em_pelvis/em_r_thigh/em_r_calf/em_r_foot/em_r_toe0
+        weight: 1
+      - path: em_root/em_pelvis/em_spine
+        weight: 1
+      - path: em_root/em_pelvis/em_spine/em_rotator
+        weight: 1
+      - path: em_root/em_pelvis/em_spine/em_spine1
+        weight: 1
+      - path: em_root/em_pelvis/em_spine/em_spine1/em_l_clavicle
+        weight: 1
+      - path: em_root/em_pelvis/em_spine/em_spine1/em_l_clavicle/em_l_upperarm
+        weight: 1
+      - path: em_root/em_pelvis/em_spine/em_spine1/em_l_clavicle/em_l_upperarm/em_l_forearm
+        weight: 1
+      - path: em_root/em_pelvis/em_spine/em_spine1/em_l_clavicle/em_l_upperarm/em_l_forearm/em_l_hand
+        weight: 1
+      - path: em_root/em_pelvis/em_spine/em_spine1/em_l_clavicle/em_l_upperarm/em_l_forearm/em_l_hand/em_fl_01
+        weight: 1
+      - path: em_root/em_pelvis/em_spine/em_spine1/em_l_clavicle/em_l_upperarm/em_l_forearm/em_l_hand/em_fl_01/em_fl_02
+        weight: 1
+      - path: em_root/em_pelvis/em_spine/em_spine1/em_l_clavicle/em_l_upperarm/em_l_forearm/em_l_hand/em_fl_11
+        weight: 1
+      - path: em_root/em_pelvis/em_spine/em_spine1/em_l_clavicle/em_l_upperarm/em_l_forearm/em_l_hand/em_fl_11/em_fl_12
+        weight: 1
+      - path: em_root/em_pelvis/em_spine/em_spine1/em_neck
+        weight: 1
+      - path: em_root/em_pelvis/em_spine/em_spine1/em_neck/em_head
+        weight: 1
+      - path: em_root/em_pelvis/em_spine/em_spine1/em_r_clavicle
+        weight: 1
+      - path: em_root/em_pelvis/em_spine/em_spine1/em_r_clavicle/em_r_upperarm
+        weight: 1
+      - path: em_root/em_pelvis/em_spine/em_spine1/em_r_clavicle/em_r_upperarm/em_r_forearm
+        weight: 1
+      - path: em_root/em_pelvis/em_spine/em_spine1/em_r_clavicle/em_r_upperarm/em_r_forearm/em_r_hand
+        weight: 1
+      - path: em_root/em_pelvis/em_spine/em_spine1/em_r_clavicle/em_r_upperarm/em_r_forearm/em_r_hand/em_fr_01
+        weight: 1
+      - path: em_root/em_pelvis/em_spine/em_spine1/em_r_clavicle/em_r_upperarm/em_r_forearm/em_r_hand/em_fr_01/em_fr_02
+        weight: 1
+      - path: em_root/em_pelvis/em_spine/em_spine1/em_r_clavicle/em_r_upperarm/em_r_forearm/em_r_hand/em_fr_11
+        weight: 1
+      - path: em_root/em_pelvis/em_spine/em_spine1/em_r_clavicle/em_r_upperarm/em_r_forearm/em_r_hand/em_fr_11/em_fr_12
+        weight: 1
+      - path: em_root/em_pelvis/em_spine/em_spine1/em_wiresl
+        weight: 1
+      - path: em_root/em_pelvis/em_spine/em_spine1/em_wiresr
+        weight: 1
+      - path: em_root/em_pelvis/em_spine/em_trigger
+        weight: 1
+      - path: mesh_electro_man
+        weight: 1
+      - path: mesh_head
+        weight: 1
+      - path: mesh_head_helmet
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: turn_left_180B
+      takeName: turn_left_180B
+      firstFrame: 0
+      lastFrame: 24
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: em_root
+        weight: 1
+      - path: em_root/em_pelvis
+        weight: 1
+      - path: em_root/em_pelvis/em_l_thigh
+        weight: 1
+      - path: em_root/em_pelvis/em_l_thigh/em_l_calf
+        weight: 1
+      - path: em_root/em_pelvis/em_l_thigh/em_l_calf/em_l_foot
+        weight: 1
+      - path: em_root/em_pelvis/em_l_thigh/em_l_calf/em_l_foot/em_l_toe0
+        weight: 1
+      - path: em_root/em_pelvis/em_r_thigh
+        weight: 1
+      - path: em_root/em_pelvis/em_r_thigh/em_r_calf
+        weight: 1
+      - path: em_root/em_pelvis/em_r_thigh/em_r_calf/em_r_foot
+        weight: 1
+      - path: em_root/em_pelvis/em_r_thigh/em_r_calf/em_r_foot/em_r_toe0
+        weight: 1
+      - path: em_root/em_pelvis/em_spine
+        weight: 1
+      - path: em_root/em_pelvis/em_spine/em_rotator
+        weight: 1
+      - path: em_root/em_pelvis/em_spine/em_spine1
+        weight: 1
+      - path: em_root/em_pelvis/em_spine/em_spine1/em_l_clavicle
+        weight: 1
+      - path: em_root/em_pelvis/em_spine/em_spine1/em_l_clavicle/em_l_upperarm
+        weight: 1
+      - path: em_root/em_pelvis/em_spine/em_spine1/em_l_clavicle/em_l_upperarm/em_l_forearm
+        weight: 1
+      - path: em_root/em_pelvis/em_spine/em_spine1/em_l_clavicle/em_l_upperarm/em_l_forearm/em_l_hand
+        weight: 1
+      - path: em_root/em_pelvis/em_spine/em_spine1/em_l_clavicle/em_l_upperarm/em_l_forearm/em_l_hand/em_fl_01
+        weight: 1
+      - path: em_root/em_pelvis/em_spine/em_spine1/em_l_clavicle/em_l_upperarm/em_l_forearm/em_l_hand/em_fl_01/em_fl_02
+        weight: 1
+      - path: em_root/em_pelvis/em_spine/em_spine1/em_l_clavicle/em_l_upperarm/em_l_forearm/em_l_hand/em_fl_11
+        weight: 1
+      - path: em_root/em_pelvis/em_spine/em_spine1/em_l_clavicle/em_l_upperarm/em_l_forearm/em_l_hand/em_fl_11/em_fl_12
+        weight: 1
+      - path: em_root/em_pelvis/em_spine/em_spine1/em_neck
+        weight: 1
+      - path: em_root/em_pelvis/em_spine/em_spine1/em_neck/em_head
+        weight: 1
+      - path: em_root/em_pelvis/em_spine/em_spine1/em_r_clavicle
+        weight: 1
+      - path: em_root/em_pelvis/em_spine/em_spine1/em_r_clavicle/em_r_upperarm
+        weight: 1
+      - path: em_root/em_pelvis/em_spine/em_spine1/em_r_clavicle/em_r_upperarm/em_r_forearm
+        weight: 1
+      - path: em_root/em_pelvis/em_spine/em_spine1/em_r_clavicle/em_r_upperarm/em_r_forearm/em_r_hand
+        weight: 1
+      - path: em_root/em_pelvis/em_spine/em_spine1/em_r_clavicle/em_r_upperarm/em_r_forearm/em_r_hand/em_fr_01
+        weight: 1
+      - path: em_root/em_pelvis/em_spine/em_spine1/em_r_clavicle/em_r_upperarm/em_r_forearm/em_r_hand/em_fr_01/em_fr_02
+        weight: 1
+      - path: em_root/em_pelvis/em_spine/em_spine1/em_r_clavicle/em_r_upperarm/em_r_forearm/em_r_hand/em_fr_11
+        weight: 1
+      - path: em_root/em_pelvis/em_spine/em_spine1/em_r_clavicle/em_r_upperarm/em_r_forearm/em_r_hand/em_fr_11/em_fr_12
+        weight: 1
+      - path: em_root/em_pelvis/em_spine/em_spine1/em_wiresl
+        weight: 1
+      - path: em_root/em_pelvis/em_spine/em_spine1/em_wiresr
+        weight: 1
+      - path: em_root/em_pelvis/em_spine/em_trigger
+        weight: 1
+      - path: mesh_electro_man
+        weight: 1
+      - path: mesh_head
+        weight: 1
+      - path: mesh_head_helmet
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: turn_right_45
+      takeName: turn_right_45
+      firstFrame: 0
+      lastFrame: 24
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: em_root
+        weight: 1
+      - path: em_root/em_pelvis
+        weight: 1
+      - path: em_root/em_pelvis/em_l_thigh
+        weight: 1
+      - path: em_root/em_pelvis/em_l_thigh/em_l_calf
+        weight: 1
+      - path: em_root/em_pelvis/em_l_thigh/em_l_calf/em_l_foot
+        weight: 1
+      - path: em_root/em_pelvis/em_l_thigh/em_l_calf/em_l_foot/em_l_toe0
+        weight: 1
+      - path: em_root/em_pelvis/em_r_thigh
+        weight: 1
+      - path: em_root/em_pelvis/em_r_thigh/em_r_calf
+        weight: 1
+      - path: em_root/em_pelvis/em_r_thigh/em_r_calf/em_r_foot
+        weight: 1
+      - path: em_root/em_pelvis/em_r_thigh/em_r_calf/em_r_foot/em_r_toe0
+        weight: 1
+      - path: em_root/em_pelvis/em_spine
+        weight: 1
+      - path: em_root/em_pelvis/em_spine/em_rotator
+        weight: 1
+      - path: em_root/em_pelvis/em_spine/em_spine1
+        weight: 1
+      - path: em_root/em_pelvis/em_spine/em_spine1/em_l_clavicle
+        weight: 1
+      - path: em_root/em_pelvis/em_spine/em_spine1/em_l_clavicle/em_l_upperarm
+        weight: 1
+      - path: em_root/em_pelvis/em_spine/em_spine1/em_l_clavicle/em_l_upperarm/em_l_forearm
+        weight: 1
+      - path: em_root/em_pelvis/em_spine/em_spine1/em_l_clavicle/em_l_upperarm/em_l_forearm/em_l_hand
+        weight: 1
+      - path: em_root/em_pelvis/em_spine/em_spine1/em_l_clavicle/em_l_upperarm/em_l_forearm/em_l_hand/em_fl_01
+        weight: 1
+      - path: em_root/em_pelvis/em_spine/em_spine1/em_l_clavicle/em_l_upperarm/em_l_forearm/em_l_hand/em_fl_01/em_fl_02
+        weight: 1
+      - path: em_root/em_pelvis/em_spine/em_spine1/em_l_clavicle/em_l_upperarm/em_l_forearm/em_l_hand/em_fl_11
+        weight: 1
+      - path: em_root/em_pelvis/em_spine/em_spine1/em_l_clavicle/em_l_upperarm/em_l_forearm/em_l_hand/em_fl_11/em_fl_12
+        weight: 1
+      - path: em_root/em_pelvis/em_spine/em_spine1/em_neck
+        weight: 1
+      - path: em_root/em_pelvis/em_spine/em_spine1/em_neck/em_head
+        weight: 1
+      - path: em_root/em_pelvis/em_spine/em_spine1/em_r_clavicle
+        weight: 1
+      - path: em_root/em_pelvis/em_spine/em_spine1/em_r_clavicle/em_r_upperarm
+        weight: 1
+      - path: em_root/em_pelvis/em_spine/em_spine1/em_r_clavicle/em_r_upperarm/em_r_forearm
+        weight: 1
+      - path: em_root/em_pelvis/em_spine/em_spine1/em_r_clavicle/em_r_upperarm/em_r_forearm/em_r_hand
+        weight: 1
+      - path: em_root/em_pelvis/em_spine/em_spine1/em_r_clavicle/em_r_upperarm/em_r_forearm/em_r_hand/em_fr_01
+        weight: 1
+      - path: em_root/em_pelvis/em_spine/em_spine1/em_r_clavicle/em_r_upperarm/em_r_forearm/em_r_hand/em_fr_01/em_fr_02
+        weight: 1
+      - path: em_root/em_pelvis/em_spine/em_spine1/em_r_clavicle/em_r_upperarm/em_r_forearm/em_r_hand/em_fr_11
+        weight: 1
+      - path: em_root/em_pelvis/em_spine/em_spine1/em_r_clavicle/em_r_upperarm/em_r_forearm/em_r_hand/em_fr_11/em_fr_12
+        weight: 1
+      - path: em_root/em_pelvis/em_spine/em_spine1/em_wiresl
+        weight: 1
+      - path: em_root/em_pelvis/em_spine/em_spine1/em_wiresr
+        weight: 1
+      - path: em_root/em_pelvis/em_spine/em_trigger
+        weight: 1
+      - path: mesh_electro_man
+        weight: 1
+      - path: mesh_head
+        weight: 1
+      - path: mesh_head_helmet
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: turn_right_90
+      takeName: turn_right_90
+      firstFrame: 0
+      lastFrame: 24
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: em_root
+        weight: 1
+      - path: em_root/em_pelvis
+        weight: 1
+      - path: em_root/em_pelvis/em_l_thigh
+        weight: 1
+      - path: em_root/em_pelvis/em_l_thigh/em_l_calf
+        weight: 1
+      - path: em_root/em_pelvis/em_l_thigh/em_l_calf/em_l_foot
+        weight: 1
+      - path: em_root/em_pelvis/em_l_thigh/em_l_calf/em_l_foot/em_l_toe0
+        weight: 1
+      - path: em_root/em_pelvis/em_r_thigh
+        weight: 1
+      - path: em_root/em_pelvis/em_r_thigh/em_r_calf
+        weight: 1
+      - path: em_root/em_pelvis/em_r_thigh/em_r_calf/em_r_foot
+        weight: 1
+      - path: em_root/em_pelvis/em_r_thigh/em_r_calf/em_r_foot/em_r_toe0
+        weight: 1
+      - path: em_root/em_pelvis/em_spine
+        weight: 1
+      - path: em_root/em_pelvis/em_spine/em_rotator
+        weight: 1
+      - path: em_root/em_pelvis/em_spine/em_spine1
+        weight: 1
+      - path: em_root/em_pelvis/em_spine/em_spine1/em_l_clavicle
+        weight: 1
+      - path: em_root/em_pelvis/em_spine/em_spine1/em_l_clavicle/em_l_upperarm
+        weight: 1
+      - path: em_root/em_pelvis/em_spine/em_spine1/em_l_clavicle/em_l_upperarm/em_l_forearm
+        weight: 1
+      - path: em_root/em_pelvis/em_spine/em_spine1/em_l_clavicle/em_l_upperarm/em_l_forearm/em_l_hand
+        weight: 1
+      - path: em_root/em_pelvis/em_spine/em_spine1/em_l_clavicle/em_l_upperarm/em_l_forearm/em_l_hand/em_fl_01
+        weight: 1
+      - path: em_root/em_pelvis/em_spine/em_spine1/em_l_clavicle/em_l_upperarm/em_l_forearm/em_l_hand/em_fl_01/em_fl_02
+        weight: 1
+      - path: em_root/em_pelvis/em_spine/em_spine1/em_l_clavicle/em_l_upperarm/em_l_forearm/em_l_hand/em_fl_11
+        weight: 1
+      - path: em_root/em_pelvis/em_spine/em_spine1/em_l_clavicle/em_l_upperarm/em_l_forearm/em_l_hand/em_fl_11/em_fl_12
+        weight: 1
+      - path: em_root/em_pelvis/em_spine/em_spine1/em_neck
+        weight: 1
+      - path: em_root/em_pelvis/em_spine/em_spine1/em_neck/em_head
+        weight: 1
+      - path: em_root/em_pelvis/em_spine/em_spine1/em_r_clavicle
+        weight: 1
+      - path: em_root/em_pelvis/em_spine/em_spine1/em_r_clavicle/em_r_upperarm
+        weight: 1
+      - path: em_root/em_pelvis/em_spine/em_spine1/em_r_clavicle/em_r_upperarm/em_r_forearm
+        weight: 1
+      - path: em_root/em_pelvis/em_spine/em_spine1/em_r_clavicle/em_r_upperarm/em_r_forearm/em_r_hand
+        weight: 1
+      - path: em_root/em_pelvis/em_spine/em_spine1/em_r_clavicle/em_r_upperarm/em_r_forearm/em_r_hand/em_fr_01
+        weight: 1
+      - path: em_root/em_pelvis/em_spine/em_spine1/em_r_clavicle/em_r_upperarm/em_r_forearm/em_r_hand/em_fr_01/em_fr_02
+        weight: 1
+      - path: em_root/em_pelvis/em_spine/em_spine1/em_r_clavicle/em_r_upperarm/em_r_forearm/em_r_hand/em_fr_11
+        weight: 1
+      - path: em_root/em_pelvis/em_spine/em_spine1/em_r_clavicle/em_r_upperarm/em_r_forearm/em_r_hand/em_fr_11/em_fr_12
+        weight: 1
+      - path: em_root/em_pelvis/em_spine/em_spine1/em_wiresl
+        weight: 1
+      - path: em_root/em_pelvis/em_spine/em_spine1/em_wiresr
+        weight: 1
+      - path: em_root/em_pelvis/em_spine/em_trigger
+        weight: 1
+      - path: mesh_electro_man
+        weight: 1
+      - path: mesh_head
+        weight: 1
+      - path: mesh_head_helmet
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: turn_right_180
+      takeName: turn_right_180
+      firstFrame: 0
+      lastFrame: 24
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: em_root
+        weight: 1
+      - path: em_root/em_pelvis
+        weight: 1
+      - path: em_root/em_pelvis/em_l_thigh
+        weight: 1
+      - path: em_root/em_pelvis/em_l_thigh/em_l_calf
+        weight: 1
+      - path: em_root/em_pelvis/em_l_thigh/em_l_calf/em_l_foot
+        weight: 1
+      - path: em_root/em_pelvis/em_l_thigh/em_l_calf/em_l_foot/em_l_toe0
+        weight: 1
+      - path: em_root/em_pelvis/em_r_thigh
+        weight: 1
+      - path: em_root/em_pelvis/em_r_thigh/em_r_calf
+        weight: 1
+      - path: em_root/em_pelvis/em_r_thigh/em_r_calf/em_r_foot
+        weight: 1
+      - path: em_root/em_pelvis/em_r_thigh/em_r_calf/em_r_foot/em_r_toe0
+        weight: 1
+      - path: em_root/em_pelvis/em_spine
+        weight: 1
+      - path: em_root/em_pelvis/em_spine/em_rotator
+        weight: 1
+      - path: em_root/em_pelvis/em_spine/em_spine1
+        weight: 1
+      - path: em_root/em_pelvis/em_spine/em_spine1/em_l_clavicle
+        weight: 1
+      - path: em_root/em_pelvis/em_spine/em_spine1/em_l_clavicle/em_l_upperarm
+        weight: 1
+      - path: em_root/em_pelvis/em_spine/em_spine1/em_l_clavicle/em_l_upperarm/em_l_forearm
+        weight: 1
+      - path: em_root/em_pelvis/em_spine/em_spine1/em_l_clavicle/em_l_upperarm/em_l_forearm/em_l_hand
+        weight: 1
+      - path: em_root/em_pelvis/em_spine/em_spine1/em_l_clavicle/em_l_upperarm/em_l_forearm/em_l_hand/em_fl_01
+        weight: 1
+      - path: em_root/em_pelvis/em_spine/em_spine1/em_l_clavicle/em_l_upperarm/em_l_forearm/em_l_hand/em_fl_01/em_fl_02
+        weight: 1
+      - path: em_root/em_pelvis/em_spine/em_spine1/em_l_clavicle/em_l_upperarm/em_l_forearm/em_l_hand/em_fl_11
+        weight: 1
+      - path: em_root/em_pelvis/em_spine/em_spine1/em_l_clavicle/em_l_upperarm/em_l_forearm/em_l_hand/em_fl_11/em_fl_12
+        weight: 1
+      - path: em_root/em_pelvis/em_spine/em_spine1/em_neck
+        weight: 1
+      - path: em_root/em_pelvis/em_spine/em_spine1/em_neck/em_head
+        weight: 1
+      - path: em_root/em_pelvis/em_spine/em_spine1/em_r_clavicle
+        weight: 1
+      - path: em_root/em_pelvis/em_spine/em_spine1/em_r_clavicle/em_r_upperarm
+        weight: 1
+      - path: em_root/em_pelvis/em_spine/em_spine1/em_r_clavicle/em_r_upperarm/em_r_forearm
+        weight: 1
+      - path: em_root/em_pelvis/em_spine/em_spine1/em_r_clavicle/em_r_upperarm/em_r_forearm/em_r_hand
+        weight: 1
+      - path: em_root/em_pelvis/em_spine/em_spine1/em_r_clavicle/em_r_upperarm/em_r_forearm/em_r_hand/em_fr_01
+        weight: 1
+      - path: em_root/em_pelvis/em_spine/em_spine1/em_r_clavicle/em_r_upperarm/em_r_forearm/em_r_hand/em_fr_01/em_fr_02
+        weight: 1
+      - path: em_root/em_pelvis/em_spine/em_spine1/em_r_clavicle/em_r_upperarm/em_r_forearm/em_r_hand/em_fr_11
+        weight: 1
+      - path: em_root/em_pelvis/em_spine/em_spine1/em_r_clavicle/em_r_upperarm/em_r_forearm/em_r_hand/em_fr_11/em_fr_12
+        weight: 1
+      - path: em_root/em_pelvis/em_spine/em_spine1/em_wiresl
+        weight: 1
+      - path: em_root/em_pelvis/em_spine/em_spine1/em_wiresr
+        weight: 1
+      - path: em_root/em_pelvis/em_spine/em_trigger
+        weight: 1
+      - path: mesh_electro_man
+        weight: 1
+      - path: mesh_head
+        weight: 1
+      - path: mesh_head_helmet
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: walk_forward
+      takeName: walk_forward
+      firstFrame: 0
+      lastFrame: 32
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: em_root
+        weight: 1
+      - path: em_root/em_pelvis
+        weight: 1
+      - path: em_root/em_pelvis/em_l_thigh
+        weight: 1
+      - path: em_root/em_pelvis/em_l_thigh/em_l_calf
+        weight: 1
+      - path: em_root/em_pelvis/em_l_thigh/em_l_calf/em_l_foot
+        weight: 1
+      - path: em_root/em_pelvis/em_l_thigh/em_l_calf/em_l_foot/em_l_toe0
+        weight: 1
+      - path: em_root/em_pelvis/em_r_thigh
+        weight: 1
+      - path: em_root/em_pelvis/em_r_thigh/em_r_calf
+        weight: 1
+      - path: em_root/em_pelvis/em_r_thigh/em_r_calf/em_r_foot
+        weight: 1
+      - path: em_root/em_pelvis/em_r_thigh/em_r_calf/em_r_foot/em_r_toe0
+        weight: 1
+      - path: em_root/em_pelvis/em_spine
+        weight: 1
+      - path: em_root/em_pelvis/em_spine/em_rotator
+        weight: 1
+      - path: em_root/em_pelvis/em_spine/em_spine1
+        weight: 1
+      - path: em_root/em_pelvis/em_spine/em_spine1/em_l_clavicle
+        weight: 1
+      - path: em_root/em_pelvis/em_spine/em_spine1/em_l_clavicle/em_l_upperarm
+        weight: 1
+      - path: em_root/em_pelvis/em_spine/em_spine1/em_l_clavicle/em_l_upperarm/em_l_forearm
+        weight: 1
+      - path: em_root/em_pelvis/em_spine/em_spine1/em_l_clavicle/em_l_upperarm/em_l_forearm/em_l_hand
+        weight: 1
+      - path: em_root/em_pelvis/em_spine/em_spine1/em_l_clavicle/em_l_upperarm/em_l_forearm/em_l_hand/em_fl_01
+        weight: 1
+      - path: em_root/em_pelvis/em_spine/em_spine1/em_l_clavicle/em_l_upperarm/em_l_forearm/em_l_hand/em_fl_01/em_fl_02
+        weight: 1
+      - path: em_root/em_pelvis/em_spine/em_spine1/em_l_clavicle/em_l_upperarm/em_l_forearm/em_l_hand/em_fl_11
+        weight: 1
+      - path: em_root/em_pelvis/em_spine/em_spine1/em_l_clavicle/em_l_upperarm/em_l_forearm/em_l_hand/em_fl_11/em_fl_12
+        weight: 1
+      - path: em_root/em_pelvis/em_spine/em_spine1/em_neck
+        weight: 1
+      - path: em_root/em_pelvis/em_spine/em_spine1/em_neck/em_head
+        weight: 1
+      - path: em_root/em_pelvis/em_spine/em_spine1/em_r_clavicle
+        weight: 1
+      - path: em_root/em_pelvis/em_spine/em_spine1/em_r_clavicle/em_r_upperarm
+        weight: 1
+      - path: em_root/em_pelvis/em_spine/em_spine1/em_r_clavicle/em_r_upperarm/em_r_forearm
+        weight: 1
+      - path: em_root/em_pelvis/em_spine/em_spine1/em_r_clavicle/em_r_upperarm/em_r_forearm/em_r_hand
+        weight: 1
+      - path: em_root/em_pelvis/em_spine/em_spine1/em_r_clavicle/em_r_upperarm/em_r_forearm/em_r_hand/em_fr_01
+        weight: 1
+      - path: em_root/em_pelvis/em_spine/em_spine1/em_r_clavicle/em_r_upperarm/em_r_forearm/em_r_hand/em_fr_01/em_fr_02
+        weight: 1
+      - path: em_root/em_pelvis/em_spine/em_spine1/em_r_clavicle/em_r_upperarm/em_r_forearm/em_r_hand/em_fr_11
+        weight: 1
+      - path: em_root/em_pelvis/em_spine/em_spine1/em_r_clavicle/em_r_upperarm/em_r_forearm/em_r_hand/em_fr_11/em_fr_12
+        weight: 1
+      - path: em_root/em_pelvis/em_spine/em_spine1/em_wiresl
+        weight: 1
+      - path: em_root/em_pelvis/em_spine/em_spine1/em_wiresr
+        weight: 1
+      - path: em_root/em_pelvis/em_spine/em_trigger
+        weight: 1
+      - path: mesh_electro_man
+        weight: 1
+      - path: mesh_head
+        weight: 1
+      - path: mesh_head_helmet
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: walk_left_radius_90
+      takeName: walk_left_radius_90
+      firstFrame: 0
+      lastFrame: 32
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: em_root
+        weight: 1
+      - path: em_root/em_pelvis
+        weight: 1
+      - path: em_root/em_pelvis/em_l_thigh
+        weight: 1
+      - path: em_root/em_pelvis/em_l_thigh/em_l_calf
+        weight: 1
+      - path: em_root/em_pelvis/em_l_thigh/em_l_calf/em_l_foot
+        weight: 1
+      - path: em_root/em_pelvis/em_l_thigh/em_l_calf/em_l_foot/em_l_toe0
+        weight: 1
+      - path: em_root/em_pelvis/em_r_thigh
+        weight: 1
+      - path: em_root/em_pelvis/em_r_thigh/em_r_calf
+        weight: 1
+      - path: em_root/em_pelvis/em_r_thigh/em_r_calf/em_r_foot
+        weight: 1
+      - path: em_root/em_pelvis/em_r_thigh/em_r_calf/em_r_foot/em_r_toe0
+        weight: 1
+      - path: em_root/em_pelvis/em_spine
+        weight: 1
+      - path: em_root/em_pelvis/em_spine/em_rotator
+        weight: 1
+      - path: em_root/em_pelvis/em_spine/em_spine1
+        weight: 1
+      - path: em_root/em_pelvis/em_spine/em_spine1/em_l_clavicle
+        weight: 1
+      - path: em_root/em_pelvis/em_spine/em_spine1/em_l_clavicle/em_l_upperarm
+        weight: 1
+      - path: em_root/em_pelvis/em_spine/em_spine1/em_l_clavicle/em_l_upperarm/em_l_forearm
+        weight: 1
+      - path: em_root/em_pelvis/em_spine/em_spine1/em_l_clavicle/em_l_upperarm/em_l_forearm/em_l_hand
+        weight: 1
+      - path: em_root/em_pelvis/em_spine/em_spine1/em_l_clavicle/em_l_upperarm/em_l_forearm/em_l_hand/em_fl_01
+        weight: 1
+      - path: em_root/em_pelvis/em_spine/em_spine1/em_l_clavicle/em_l_upperarm/em_l_forearm/em_l_hand/em_fl_01/em_fl_02
+        weight: 1
+      - path: em_root/em_pelvis/em_spine/em_spine1/em_l_clavicle/em_l_upperarm/em_l_forearm/em_l_hand/em_fl_11
+        weight: 1
+      - path: em_root/em_pelvis/em_spine/em_spine1/em_l_clavicle/em_l_upperarm/em_l_forearm/em_l_hand/em_fl_11/em_fl_12
+        weight: 1
+      - path: em_root/em_pelvis/em_spine/em_spine1/em_neck
+        weight: 1
+      - path: em_root/em_pelvis/em_spine/em_spine1/em_neck/em_head
+        weight: 1
+      - path: em_root/em_pelvis/em_spine/em_spine1/em_r_clavicle
+        weight: 1
+      - path: em_root/em_pelvis/em_spine/em_spine1/em_r_clavicle/em_r_upperarm
+        weight: 1
+      - path: em_root/em_pelvis/em_spine/em_spine1/em_r_clavicle/em_r_upperarm/em_r_forearm
+        weight: 1
+      - path: em_root/em_pelvis/em_spine/em_spine1/em_r_clavicle/em_r_upperarm/em_r_forearm/em_r_hand
+        weight: 1
+      - path: em_root/em_pelvis/em_spine/em_spine1/em_r_clavicle/em_r_upperarm/em_r_forearm/em_r_hand/em_fr_01
+        weight: 1
+      - path: em_root/em_pelvis/em_spine/em_spine1/em_r_clavicle/em_r_upperarm/em_r_forearm/em_r_hand/em_fr_01/em_fr_02
+        weight: 1
+      - path: em_root/em_pelvis/em_spine/em_spine1/em_r_clavicle/em_r_upperarm/em_r_forearm/em_r_hand/em_fr_11
+        weight: 1
+      - path: em_root/em_pelvis/em_spine/em_spine1/em_r_clavicle/em_r_upperarm/em_r_forearm/em_r_hand/em_fr_11/em_fr_12
+        weight: 1
+      - path: em_root/em_pelvis/em_spine/em_spine1/em_wiresl
+        weight: 1
+      - path: em_root/em_pelvis/em_spine/em_spine1/em_wiresr
+        weight: 1
+      - path: em_root/em_pelvis/em_spine/em_trigger
+        weight: 1
+      - path: mesh_electro_man
+        weight: 1
+      - path: mesh_head
+        weight: 1
+      - path: mesh_head_helmet
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: walk_left_radius_160
+      takeName: walk_left_radius_160
+      firstFrame: 0
+      lastFrame: 32
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: em_root
+        weight: 1
+      - path: em_root/em_pelvis
+        weight: 1
+      - path: em_root/em_pelvis/em_l_thigh
+        weight: 1
+      - path: em_root/em_pelvis/em_l_thigh/em_l_calf
+        weight: 1
+      - path: em_root/em_pelvis/em_l_thigh/em_l_calf/em_l_foot
+        weight: 1
+      - path: em_root/em_pelvis/em_l_thigh/em_l_calf/em_l_foot/em_l_toe0
+        weight: 1
+      - path: em_root/em_pelvis/em_r_thigh
+        weight: 1
+      - path: em_root/em_pelvis/em_r_thigh/em_r_calf
+        weight: 1
+      - path: em_root/em_pelvis/em_r_thigh/em_r_calf/em_r_foot
+        weight: 1
+      - path: em_root/em_pelvis/em_r_thigh/em_r_calf/em_r_foot/em_r_toe0
+        weight: 1
+      - path: em_root/em_pelvis/em_spine
+        weight: 1
+      - path: em_root/em_pelvis/em_spine/em_rotator
+        weight: 1
+      - path: em_root/em_pelvis/em_spine/em_spine1
+        weight: 1
+      - path: em_root/em_pelvis/em_spine/em_spine1/em_l_clavicle
+        weight: 1
+      - path: em_root/em_pelvis/em_spine/em_spine1/em_l_clavicle/em_l_upperarm
+        weight: 1
+      - path: em_root/em_pelvis/em_spine/em_spine1/em_l_clavicle/em_l_upperarm/em_l_forearm
+        weight: 1
+      - path: em_root/em_pelvis/em_spine/em_spine1/em_l_clavicle/em_l_upperarm/em_l_forearm/em_l_hand
+        weight: 1
+      - path: em_root/em_pelvis/em_spine/em_spine1/em_l_clavicle/em_l_upperarm/em_l_forearm/em_l_hand/em_fl_01
+        weight: 1
+      - path: em_root/em_pelvis/em_spine/em_spine1/em_l_clavicle/em_l_upperarm/em_l_forearm/em_l_hand/em_fl_01/em_fl_02
+        weight: 1
+      - path: em_root/em_pelvis/em_spine/em_spine1/em_l_clavicle/em_l_upperarm/em_l_forearm/em_l_hand/em_fl_11
+        weight: 1
+      - path: em_root/em_pelvis/em_spine/em_spine1/em_l_clavicle/em_l_upperarm/em_l_forearm/em_l_hand/em_fl_11/em_fl_12
+        weight: 1
+      - path: em_root/em_pelvis/em_spine/em_spine1/em_neck
+        weight: 1
+      - path: em_root/em_pelvis/em_spine/em_spine1/em_neck/em_head
+        weight: 1
+      - path: em_root/em_pelvis/em_spine/em_spine1/em_r_clavicle
+        weight: 1
+      - path: em_root/em_pelvis/em_spine/em_spine1/em_r_clavicle/em_r_upperarm
+        weight: 1
+      - path: em_root/em_pelvis/em_spine/em_spine1/em_r_clavicle/em_r_upperarm/em_r_forearm
+        weight: 1
+      - path: em_root/em_pelvis/em_spine/em_spine1/em_r_clavicle/em_r_upperarm/em_r_forearm/em_r_hand
+        weight: 1
+      - path: em_root/em_pelvis/em_spine/em_spine1/em_r_clavicle/em_r_upperarm/em_r_forearm/em_r_hand/em_fr_01
+        weight: 1
+      - path: em_root/em_pelvis/em_spine/em_spine1/em_r_clavicle/em_r_upperarm/em_r_forearm/em_r_hand/em_fr_01/em_fr_02
+        weight: 1
+      - path: em_root/em_pelvis/em_spine/em_spine1/em_r_clavicle/em_r_upperarm/em_r_forearm/em_r_hand/em_fr_11
+        weight: 1
+      - path: em_root/em_pelvis/em_spine/em_spine1/em_r_clavicle/em_r_upperarm/em_r_forearm/em_r_hand/em_fr_11/em_fr_12
+        weight: 1
+      - path: em_root/em_pelvis/em_spine/em_spine1/em_wiresl
+        weight: 1
+      - path: em_root/em_pelvis/em_spine/em_spine1/em_wiresr
+        weight: 1
+      - path: em_root/em_pelvis/em_spine/em_trigger
+        weight: 1
+      - path: mesh_electro_man
+        weight: 1
+      - path: mesh_head
+        weight: 1
+      - path: mesh_head_helmet
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: walk_left_radius_280
+      takeName: walk_left_radius_280
+      firstFrame: 0
+      lastFrame: 32
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: em_root
+        weight: 1
+      - path: em_root/em_pelvis
+        weight: 1
+      - path: em_root/em_pelvis/em_l_thigh
+        weight: 1
+      - path: em_root/em_pelvis/em_l_thigh/em_l_calf
+        weight: 1
+      - path: em_root/em_pelvis/em_l_thigh/em_l_calf/em_l_foot
+        weight: 1
+      - path: em_root/em_pelvis/em_l_thigh/em_l_calf/em_l_foot/em_l_toe0
+        weight: 1
+      - path: em_root/em_pelvis/em_r_thigh
+        weight: 1
+      - path: em_root/em_pelvis/em_r_thigh/em_r_calf
+        weight: 1
+      - path: em_root/em_pelvis/em_r_thigh/em_r_calf/em_r_foot
+        weight: 1
+      - path: em_root/em_pelvis/em_r_thigh/em_r_calf/em_r_foot/em_r_toe0
+        weight: 1
+      - path: em_root/em_pelvis/em_spine
+        weight: 1
+      - path: em_root/em_pelvis/em_spine/em_rotator
+        weight: 1
+      - path: em_root/em_pelvis/em_spine/em_spine1
+        weight: 1
+      - path: em_root/em_pelvis/em_spine/em_spine1/em_l_clavicle
+        weight: 1
+      - path: em_root/em_pelvis/em_spine/em_spine1/em_l_clavicle/em_l_upperarm
+        weight: 1
+      - path: em_root/em_pelvis/em_spine/em_spine1/em_l_clavicle/em_l_upperarm/em_l_forearm
+        weight: 1
+      - path: em_root/em_pelvis/em_spine/em_spine1/em_l_clavicle/em_l_upperarm/em_l_forearm/em_l_hand
+        weight: 1
+      - path: em_root/em_pelvis/em_spine/em_spine1/em_l_clavicle/em_l_upperarm/em_l_forearm/em_l_hand/em_fl_01
+        weight: 1
+      - path: em_root/em_pelvis/em_spine/em_spine1/em_l_clavicle/em_l_upperarm/em_l_forearm/em_l_hand/em_fl_01/em_fl_02
+        weight: 1
+      - path: em_root/em_pelvis/em_spine/em_spine1/em_l_clavicle/em_l_upperarm/em_l_forearm/em_l_hand/em_fl_11
+        weight: 1
+      - path: em_root/em_pelvis/em_spine/em_spine1/em_l_clavicle/em_l_upperarm/em_l_forearm/em_l_hand/em_fl_11/em_fl_12
+        weight: 1
+      - path: em_root/em_pelvis/em_spine/em_spine1/em_neck
+        weight: 1
+      - path: em_root/em_pelvis/em_spine/em_spine1/em_neck/em_head
+        weight: 1
+      - path: em_root/em_pelvis/em_spine/em_spine1/em_r_clavicle
+        weight: 1
+      - path: em_root/em_pelvis/em_spine/em_spine1/em_r_clavicle/em_r_upperarm
+        weight: 1
+      - path: em_root/em_pelvis/em_spine/em_spine1/em_r_clavicle/em_r_upperarm/em_r_forearm
+        weight: 1
+      - path: em_root/em_pelvis/em_spine/em_spine1/em_r_clavicle/em_r_upperarm/em_r_forearm/em_r_hand
+        weight: 1
+      - path: em_root/em_pelvis/em_spine/em_spine1/em_r_clavicle/em_r_upperarm/em_r_forearm/em_r_hand/em_fr_01
+        weight: 1
+      - path: em_root/em_pelvis/em_spine/em_spine1/em_r_clavicle/em_r_upperarm/em_r_forearm/em_r_hand/em_fr_01/em_fr_02
+        weight: 1
+      - path: em_root/em_pelvis/em_spine/em_spine1/em_r_clavicle/em_r_upperarm/em_r_forearm/em_r_hand/em_fr_11
+        weight: 1
+      - path: em_root/em_pelvis/em_spine/em_spine1/em_r_clavicle/em_r_upperarm/em_r_forearm/em_r_hand/em_fr_11/em_fr_12
+        weight: 1
+      - path: em_root/em_pelvis/em_spine/em_spine1/em_wiresl
+        weight: 1
+      - path: em_root/em_pelvis/em_spine/em_spine1/em_wiresr
+        weight: 1
+      - path: em_root/em_pelvis/em_spine/em_trigger
+        weight: 1
+      - path: mesh_electro_man
+        weight: 1
+      - path: mesh_head
+        weight: 1
+      - path: mesh_head_helmet
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: walk_right_radius_90
+      takeName: walk_right_radius_90
+      firstFrame: 0
+      lastFrame: 32
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: em_root
+        weight: 1
+      - path: em_root/em_pelvis
+        weight: 1
+      - path: em_root/em_pelvis/em_l_thigh
+        weight: 1
+      - path: em_root/em_pelvis/em_l_thigh/em_l_calf
+        weight: 1
+      - path: em_root/em_pelvis/em_l_thigh/em_l_calf/em_l_foot
+        weight: 1
+      - path: em_root/em_pelvis/em_l_thigh/em_l_calf/em_l_foot/em_l_toe0
+        weight: 1
+      - path: em_root/em_pelvis/em_r_thigh
+        weight: 1
+      - path: em_root/em_pelvis/em_r_thigh/em_r_calf
+        weight: 1
+      - path: em_root/em_pelvis/em_r_thigh/em_r_calf/em_r_foot
+        weight: 1
+      - path: em_root/em_pelvis/em_r_thigh/em_r_calf/em_r_foot/em_r_toe0
+        weight: 1
+      - path: em_root/em_pelvis/em_spine
+        weight: 1
+      - path: em_root/em_pelvis/em_spine/em_rotator
+        weight: 1
+      - path: em_root/em_pelvis/em_spine/em_spine1
+        weight: 1
+      - path: em_root/em_pelvis/em_spine/em_spine1/em_l_clavicle
+        weight: 1
+      - path: em_root/em_pelvis/em_spine/em_spine1/em_l_clavicle/em_l_upperarm
+        weight: 1
+      - path: em_root/em_pelvis/em_spine/em_spine1/em_l_clavicle/em_l_upperarm/em_l_forearm
+        weight: 1
+      - path: em_root/em_pelvis/em_spine/em_spine1/em_l_clavicle/em_l_upperarm/em_l_forearm/em_l_hand
+        weight: 1
+      - path: em_root/em_pelvis/em_spine/em_spine1/em_l_clavicle/em_l_upperarm/em_l_forearm/em_l_hand/em_fl_01
+        weight: 1
+      - path: em_root/em_pelvis/em_spine/em_spine1/em_l_clavicle/em_l_upperarm/em_l_forearm/em_l_hand/em_fl_01/em_fl_02
+        weight: 1
+      - path: em_root/em_pelvis/em_spine/em_spine1/em_l_clavicle/em_l_upperarm/em_l_forearm/em_l_hand/em_fl_11
+        weight: 1
+      - path: em_root/em_pelvis/em_spine/em_spine1/em_l_clavicle/em_l_upperarm/em_l_forearm/em_l_hand/em_fl_11/em_fl_12
+        weight: 1
+      - path: em_root/em_pelvis/em_spine/em_spine1/em_neck
+        weight: 1
+      - path: em_root/em_pelvis/em_spine/em_spine1/em_neck/em_head
+        weight: 1
+      - path: em_root/em_pelvis/em_spine/em_spine1/em_r_clavicle
+        weight: 1
+      - path: em_root/em_pelvis/em_spine/em_spine1/em_r_clavicle/em_r_upperarm
+        weight: 1
+      - path: em_root/em_pelvis/em_spine/em_spine1/em_r_clavicle/em_r_upperarm/em_r_forearm
+        weight: 1
+      - path: em_root/em_pelvis/em_spine/em_spine1/em_r_clavicle/em_r_upperarm/em_r_forearm/em_r_hand
+        weight: 1
+      - path: em_root/em_pelvis/em_spine/em_spine1/em_r_clavicle/em_r_upperarm/em_r_forearm/em_r_hand/em_fr_01
+        weight: 1
+      - path: em_root/em_pelvis/em_spine/em_spine1/em_r_clavicle/em_r_upperarm/em_r_forearm/em_r_hand/em_fr_01/em_fr_02
+        weight: 1
+      - path: em_root/em_pelvis/em_spine/em_spine1/em_r_clavicle/em_r_upperarm/em_r_forearm/em_r_hand/em_fr_11
+        weight: 1
+      - path: em_root/em_pelvis/em_spine/em_spine1/em_r_clavicle/em_r_upperarm/em_r_forearm/em_r_hand/em_fr_11/em_fr_12
+        weight: 1
+      - path: em_root/em_pelvis/em_spine/em_spine1/em_wiresl
+        weight: 1
+      - path: em_root/em_pelvis/em_spine/em_spine1/em_wiresr
+        weight: 1
+      - path: em_root/em_pelvis/em_spine/em_trigger
+        weight: 1
+      - path: mesh_electro_man
+        weight: 1
+      - path: mesh_head
+        weight: 1
+      - path: mesh_head_helmet
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: walk_right_radius_160
+      takeName: walk_right_radius_160
+      firstFrame: 0
+      lastFrame: 32
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: em_root
+        weight: 1
+      - path: em_root/em_pelvis
+        weight: 1
+      - path: em_root/em_pelvis/em_l_thigh
+        weight: 1
+      - path: em_root/em_pelvis/em_l_thigh/em_l_calf
+        weight: 1
+      - path: em_root/em_pelvis/em_l_thigh/em_l_calf/em_l_foot
+        weight: 1
+      - path: em_root/em_pelvis/em_l_thigh/em_l_calf/em_l_foot/em_l_toe0
+        weight: 1
+      - path: em_root/em_pelvis/em_r_thigh
+        weight: 1
+      - path: em_root/em_pelvis/em_r_thigh/em_r_calf
+        weight: 1
+      - path: em_root/em_pelvis/em_r_thigh/em_r_calf/em_r_foot
+        weight: 1
+      - path: em_root/em_pelvis/em_r_thigh/em_r_calf/em_r_foot/em_r_toe0
+        weight: 1
+      - path: em_root/em_pelvis/em_spine
+        weight: 1
+      - path: em_root/em_pelvis/em_spine/em_rotator
+        weight: 1
+      - path: em_root/em_pelvis/em_spine/em_spine1
+        weight: 1
+      - path: em_root/em_pelvis/em_spine/em_spine1/em_l_clavicle
+        weight: 1
+      - path: em_root/em_pelvis/em_spine/em_spine1/em_l_clavicle/em_l_upperarm
+        weight: 1
+      - path: em_root/em_pelvis/em_spine/em_spine1/em_l_clavicle/em_l_upperarm/em_l_forearm
+        weight: 1
+      - path: em_root/em_pelvis/em_spine/em_spine1/em_l_clavicle/em_l_upperarm/em_l_forearm/em_l_hand
+        weight: 1
+      - path: em_root/em_pelvis/em_spine/em_spine1/em_l_clavicle/em_l_upperarm/em_l_forearm/em_l_hand/em_fl_01
+        weight: 1
+      - path: em_root/em_pelvis/em_spine/em_spine1/em_l_clavicle/em_l_upperarm/em_l_forearm/em_l_hand/em_fl_01/em_fl_02
+        weight: 1
+      - path: em_root/em_pelvis/em_spine/em_spine1/em_l_clavicle/em_l_upperarm/em_l_forearm/em_l_hand/em_fl_11
+        weight: 1
+      - path: em_root/em_pelvis/em_spine/em_spine1/em_l_clavicle/em_l_upperarm/em_l_forearm/em_l_hand/em_fl_11/em_fl_12
+        weight: 1
+      - path: em_root/em_pelvis/em_spine/em_spine1/em_neck
+        weight: 1
+      - path: em_root/em_pelvis/em_spine/em_spine1/em_neck/em_head
+        weight: 1
+      - path: em_root/em_pelvis/em_spine/em_spine1/em_r_clavicle
+        weight: 1
+      - path: em_root/em_pelvis/em_spine/em_spine1/em_r_clavicle/em_r_upperarm
+        weight: 1
+      - path: em_root/em_pelvis/em_spine/em_spine1/em_r_clavicle/em_r_upperarm/em_r_forearm
+        weight: 1
+      - path: em_root/em_pelvis/em_spine/em_spine1/em_r_clavicle/em_r_upperarm/em_r_forearm/em_r_hand
+        weight: 1
+      - path: em_root/em_pelvis/em_spine/em_spine1/em_r_clavicle/em_r_upperarm/em_r_forearm/em_r_hand/em_fr_01
+        weight: 1
+      - path: em_root/em_pelvis/em_spine/em_spine1/em_r_clavicle/em_r_upperarm/em_r_forearm/em_r_hand/em_fr_01/em_fr_02
+        weight: 1
+      - path: em_root/em_pelvis/em_spine/em_spine1/em_r_clavicle/em_r_upperarm/em_r_forearm/em_r_hand/em_fr_11
+        weight: 1
+      - path: em_root/em_pelvis/em_spine/em_spine1/em_r_clavicle/em_r_upperarm/em_r_forearm/em_r_hand/em_fr_11/em_fr_12
+        weight: 1
+      - path: em_root/em_pelvis/em_spine/em_spine1/em_wiresl
+        weight: 1
+      - path: em_root/em_pelvis/em_spine/em_spine1/em_wiresr
+        weight: 1
+      - path: em_root/em_pelvis/em_spine/em_trigger
+        weight: 1
+      - path: mesh_electro_man
+        weight: 1
+      - path: mesh_head
+        weight: 1
+      - path: mesh_head_helmet
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: walk_right_radius_280
+      takeName: walk_right_radius_280
+      firstFrame: 0
+      lastFrame: 32
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: em_root
+        weight: 1
+      - path: em_root/em_pelvis
+        weight: 1
+      - path: em_root/em_pelvis/em_l_thigh
+        weight: 1
+      - path: em_root/em_pelvis/em_l_thigh/em_l_calf
+        weight: 1
+      - path: em_root/em_pelvis/em_l_thigh/em_l_calf/em_l_foot
+        weight: 1
+      - path: em_root/em_pelvis/em_l_thigh/em_l_calf/em_l_foot/em_l_toe0
+        weight: 1
+      - path: em_root/em_pelvis/em_r_thigh
+        weight: 1
+      - path: em_root/em_pelvis/em_r_thigh/em_r_calf
+        weight: 1
+      - path: em_root/em_pelvis/em_r_thigh/em_r_calf/em_r_foot
+        weight: 1
+      - path: em_root/em_pelvis/em_r_thigh/em_r_calf/em_r_foot/em_r_toe0
+        weight: 1
+      - path: em_root/em_pelvis/em_spine
+        weight: 1
+      - path: em_root/em_pelvis/em_spine/em_rotator
+        weight: 1
+      - path: em_root/em_pelvis/em_spine/em_spine1
+        weight: 1
+      - path: em_root/em_pelvis/em_spine/em_spine1/em_l_clavicle
+        weight: 1
+      - path: em_root/em_pelvis/em_spine/em_spine1/em_l_clavicle/em_l_upperarm
+        weight: 1
+      - path: em_root/em_pelvis/em_spine/em_spine1/em_l_clavicle/em_l_upperarm/em_l_forearm
+        weight: 1
+      - path: em_root/em_pelvis/em_spine/em_spine1/em_l_clavicle/em_l_upperarm/em_l_forearm/em_l_hand
+        weight: 1
+      - path: em_root/em_pelvis/em_spine/em_spine1/em_l_clavicle/em_l_upperarm/em_l_forearm/em_l_hand/em_fl_01
+        weight: 1
+      - path: em_root/em_pelvis/em_spine/em_spine1/em_l_clavicle/em_l_upperarm/em_l_forearm/em_l_hand/em_fl_01/em_fl_02
+        weight: 1
+      - path: em_root/em_pelvis/em_spine/em_spine1/em_l_clavicle/em_l_upperarm/em_l_forearm/em_l_hand/em_fl_11
+        weight: 1
+      - path: em_root/em_pelvis/em_spine/em_spine1/em_l_clavicle/em_l_upperarm/em_l_forearm/em_l_hand/em_fl_11/em_fl_12
+        weight: 1
+      - path: em_root/em_pelvis/em_spine/em_spine1/em_neck
+        weight: 1
+      - path: em_root/em_pelvis/em_spine/em_spine1/em_neck/em_head
+        weight: 1
+      - path: em_root/em_pelvis/em_spine/em_spine1/em_r_clavicle
+        weight: 1
+      - path: em_root/em_pelvis/em_spine/em_spine1/em_r_clavicle/em_r_upperarm
+        weight: 1
+      - path: em_root/em_pelvis/em_spine/em_spine1/em_r_clavicle/em_r_upperarm/em_r_forearm
+        weight: 1
+      - path: em_root/em_pelvis/em_spine/em_spine1/em_r_clavicle/em_r_upperarm/em_r_forearm/em_r_hand
+        weight: 1
+      - path: em_root/em_pelvis/em_spine/em_spine1/em_r_clavicle/em_r_upperarm/em_r_forearm/em_r_hand/em_fr_01
+        weight: 1
+      - path: em_root/em_pelvis/em_spine/em_spine1/em_r_clavicle/em_r_upperarm/em_r_forearm/em_r_hand/em_fr_01/em_fr_02
+        weight: 1
+      - path: em_root/em_pelvis/em_spine/em_spine1/em_r_clavicle/em_r_upperarm/em_r_forearm/em_r_hand/em_fr_11
+        weight: 1
+      - path: em_root/em_pelvis/em_spine/em_spine1/em_r_clavicle/em_r_upperarm/em_r_forearm/em_r_hand/em_fr_11/em_fr_12
+        weight: 1
+      - path: em_root/em_pelvis/em_spine/em_spine1/em_wiresl
+        weight: 1
+      - path: em_root/em_pelvis/em_spine/em_spine1/em_wiresr
+        weight: 1
+      - path: em_root/em_pelvis/em_spine/em_trigger
+        weight: 1
+      - path: mesh_electro_man
+        weight: 1
+      - path: mesh_head
+        weight: 1
+      - path: mesh_head_helmet
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: em_root
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
